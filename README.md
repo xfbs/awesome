@@ -9,8 +9,19 @@ My own curated list of awesome things.
 - [Puzzles](#puzzles)
 - [Programming Languages](#programming-languages)
 - [Tools](#tools)
+    - [Terminal](#terminal)
+    - [Editors](#editors)
+    - [Version Control](#version-control)
+    - [Static Analysis](#static-analysis)
+    - [Code Formatter](#code-formatter)
+    - [Code Sanitizers](#code-sanitizers)
+    - [Debuggers](#debuggers)
 - [Libraries](#libraries)
     - [C Libraries](#c-libraries)
+    - [C++ Libraries](#c++-libraries)
+- [Reading](#reading)
+    - [Books](#books)
+    - [Papers](#papers)
 - [Further](#further)
 
 ## News
@@ -354,6 +365,10 @@ done?
 
 - [utf8.h](https://github.com/sheredom/utf8.h)
 
+>   Regex library, default library used by Ruby 2.0 and later.
+
+- [Onigmo](https://github.com/k-takata/Onigmo)
+
 ### C++ Libraries
 
 >   Simple unit testing framework for C++
@@ -361,6 +376,10 @@ done?
 - [Catch2](https://github.com/catchorg/Catch2)
 
 ## Reading
+
+### Books
+
+### Papers
 
 ## Further
 

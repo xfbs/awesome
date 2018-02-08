@@ -18,7 +18,7 @@ My own curated list of awesome things.
     - [Debuggers](#debuggers)
 - [Libraries](#libraries)
     - [C Libraries](#c-libraries)
-    - [C++ Libraries](#c++-libraries)
+    - [C++ Libraries](#c-libraries-1)
 - [Reading](#reading)
     - [Books](#books)
     - [Papers](#papers)

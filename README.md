@@ -11,6 +11,7 @@ My own curated list of awesome things.
 - [Tools](#tools)
 - [Libraries](#libraries)
     - [C Libraries](#c-libraries)
+- [Further](#further)
 
 ## News
 
@@ -316,6 +317,24 @@ things we can do in advance to help catch some.
 
 - [Valgrind](http://valgrind.org)
 
+### Debuggers
+
+Knowing the ins and outs of your favourite debugger is the key to efficient and
+frustrationless programming in lower-level languages.
+
+>   The debugger we all know, love and hate.
+
+- [GDB](https://www.gnu.org/software/gdb/)
+
+>   A *next generation, high-performance* debugger.
+
+- [LLDB](https://lldb.llvm.org)
+
+>   Record a failure once, then debug the recording, deterministically, as many
+>   times as you want.
+
+- [rr](http://rr-project.org)
+
 ## Libraries
 
 What good is a programming language without the proper libraries to get anything
@@ -327,8 +346,24 @@ done?
 
 - [Jansson](https://github.com/akheron/jansson)
 
+>   Debug like a sir.
+
+- [Debug](https://github.com/esneider/debug)
+
+>   UTF-8 string handling made easy.
+
+- [utf8.h](https://github.com/sheredom/utf8.h)
+
 ### C++ Libraries
 
 >   Simple unit testing framework for C++
 
 - [Catch2](https://github.com/catchorg/Catch2)
+
+## Reading
+
+## Further
+
+Assorted Awesome lists worth checking out with content related to mine.
+
+- [Awesome C](https://notabug.org/koz.ross/awesome-c)

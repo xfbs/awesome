@@ -792,27 +792,79 @@ done?
 
 ### C Libraries
 
+Which libraries do I think are essential to a pain-free C programming
+experience?
+
+* * *
+
+#### Snow: [`github.com/mortie/snow`](https://github.com/mortie/snow)
+
+> Header-only unit testing library for C.
+
+C really doesn't have a lot built-in. As far as testing goes, the only
+tool that C provides is the `assert()` macro, which can be used to
+set run-time assertions, which will abort the program when false.
+
+Snow wraps this into a nice-to-use DSL for defining tests for different
+modules and pretty-prints the test invocation.
+
+##### Example
+
+This is what a sample test with snow could look like (adapted from the
+[snow GitHub readme](https://github.com/mortie/snow/blob/master/README.md)):
+
+```c
+describe(files, {
+  it("opens files", {
+    FILE *f = fopen("test", "r");
+    assertneq(f, NULL);
+    defer(fclose(f));
+  });
+
+  subdesc(fread, {
+    it("reads 10 bytes", {
+      FILE *f = fopen("/dev/zero", "r");
+      assertneq(f, NULL);
+      defer(fclose(f));
+
+      char buf[10];
+      asserteq(fread(buf, 1, 10, f), 10);
+    });
+  });
+});
+
+snow_main();
+```
+
+* * *
+
+#### Jansson: [`github.com/akheron/jansson`](https://github.com/akheron/jansson)
+
 >   Parse and generate JSON formatted data.
 
-- [Jansson](https://github.com/akheron/jansson)
+* * *
+
+#### Debug: [`github.com/esneider/debug`](https://github.com/esneider/debug)
 
 >   Debug like a sir.
 
-- [Debug](https://github.com/esneider/debug)
+* * *
+
+#### utf8.h: [`github.com/sheredom/utf8.h`](https://github.com/sheredom/utf8.h)
 
 >   UTF-8 string handling made easy.
 
-- [utf8.h](https://github.com/sheredom/utf8.h)
+* * *
+
+#### Onigmo: [`github.com/k-takata/Onigmo`](https://github.com/k-takata/Onigmo)
 
 >   Regex library, default library used by Ruby 2.0 and later.
 
-- [Onigmo](https://github.com/k-takata/Onigmo)
-
 ### C++ Libraries
 
->   Simple unit testing framework for C++
+#### Catch2: [`github.com/catchorg/Catch2`](https://github.com/catchorg/Catch2)
 
-- [Catch2](https://github.com/catchorg/Catch2)
+>   Simple unit testing framework for C++
 
 ## Reading
 

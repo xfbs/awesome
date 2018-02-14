@@ -1,9 +1,15 @@
 # Awesome
 
-My own curated (meaning subjective) list of awesome things. [Unlicensed](license.md)
-for maximum fork enjoyment. Feel free to send pull requests in case I missed anything!
+My own curated (meaning subjective) list of awesome things (relating to
+computer science). I have (tried to) include examples and screenshots of
+everything. [Unlicensed](license.md) for maximum fork enjoyment. 
 
-This is kind of supposed to be a replacement for my Safari bookmarks.
+*Please send in
+pull requests if I missed anything obvious!*
+
+This is kind of supposed to be a replacement for my browser bookmarks.
+I thought it would be better to put these links out here for everyone,
+than to have them rot in my previous convoluted folder hierachies.
 
 ## Contents
 
@@ -25,55 +31,26 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Design](#design) *resources that might help you*.
     - [Photography](#photography)
     - [Fonts](#fonts)
+    - [Other](#other)
 - [Tools](#tools) *that I find essential*.
     - [Basics](#basics)
     - [GUI](#gui)
 - [Languages](#languages)
     - [Ruby](#ruby)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Crystal](#crystal)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Rust](#rust)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [C](#c-language)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Python](#python)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Scheme](#scheme)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [OCaml](#ocaml)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Node.js](#node-js)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Haskell](#haskell)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [RISC-V Asm](#risc-v-asm)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [C++](#c-language-1)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Swift](#swift)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Nim](#nim)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [Lua](#lua)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
     - [D](#d)
-        - [Tools](#tools)
-        - [Libraries](#libraries)
 - [Further](#further) *things I don't know how to categorize*.
 
 ## Entertainment
@@ -92,6 +69,8 @@ Contains a healthy mixture of humorous and very in-depth technical articles of
 how to hack, with a focus on retro hardware and mind-boggling file format
 hackery.
 
+![PoC||GTFO screenshot](img/pocorgtfo.png)
+
 ### News
 
 These are news sites worth reading and hopefully re-reading, about technology
@@ -103,6 +82,8 @@ and related topics.
 
 All links are user-submitted. Small friendly community. Invite-only and ad free.
 
+![Lobsters screenshot](img/lobsters.png)
+
 #### Hacker News: [`news.ycombinator.com`](https://news.ycombinator.com/), ★★★★☆
 
 > Social news website focusing on computer science and entrepreneurship.
@@ -110,16 +91,21 @@ All links are user-submitted. Small friendly community. Invite-only and ad free.
 Run by startup fund Y Combinator. User-submitten link aggregator, bigger community,
 less personal but also ad-free.
 
+![Hacker News screenshot](img/hacker_news.png)
+
 #### The Register: [`theregister.co.uk`](http://www.theregister.co.uk/), ★★★★☆
 
 > Independent news and views for the tech community.
 
 Based in London, UK. Does some really good dry humor, as you would expect.
 
+![The Register screenshot](img/theregister.png)
+
 #### Ars Technica: [`arstechnica.com`](https://arstechnica.com/), ★★★★☆
 
-<!-- TODO: description -->
 News, guides, reviews, and features.
+
+![Ars Technica screenshot](img/arstechnica.png)
 
 #### Hubski: [`hubski.com`](http://hubski.com), ★★★★☆
 
@@ -127,15 +113,14 @@ News, guides, reviews, and features.
 
 Similar to [Lobsters](#lobsters), but focussed on science in general.
 
+![Hubski screenshot](img/hubski.png)
+
 #### The Verge: [`theverge.com`](https://www.theverge.com), ★★★☆☆
 
 <!-- TODO: description -->
 Generic tech news.
 
-#### Recode: [`recode.net`](https://www.recode.net), ★★★☆☆
-
-<!-- TODO: description -->
-News from silicon valley.
+![The Verge screenshot](img/theverge.png)
 
 ### Blogs
 
@@ -145,10 +130,14 @@ A few technology/culture centric blogs woth checking out.
 
 > *Law, technology, and the space between*.
 
+![/dev/lawyer screenshot](img/devlawyer.png)
+
 #### Julia Evans: [`jvns.ca`](https://jvns.ca)
 
 > Regular writings involving Rust, Ruby and how to take things like syscalls
 > apart.
+
+![Julia Evans screenshot](img/jvns.png)
 
 #### Eli Bendersky's Website: [`eli.thegreenplace.net`](https://eli.thegreenplace.net/)
 
@@ -158,17 +147,23 @@ A few technology/culture centric blogs woth checking out.
 
 Blog about programming in a variety of languages, including Python, C, C++.
 
+![Eli Bendersky's Website](img/eli_bendersky.png)
+
 ### Videos
 
 #### devttys0: [YouTube Channel](https://www.youtube.com/channel/UCuEqgu-PN4B2Jm_B5tccPCA), ★★★★★
 
 > Adventures in learning and designing analog electronics!
 
+![devttys0 screenshot](img/devttys0.png)
+
 #### Micah Elizabeth Scott: [YouTube Channel](https://www.youtube.com/channel/UCaEgw3321ct_PE4PJvdhXEQ), ★★★★★
 
 > Art, engineering, reverse engineering, and cats!
 
 The awesome fusion of programming and electronics.
+
+![Micah Elizabeth Scott screenshot](img/micahelizabethscott.png)
 
 #### Xiph Videos [`xiph.org/video`](https://www.xiph.org/video/), ★★★★★
 
@@ -181,6 +176,8 @@ can we capture? What does the sampling frequency have to do with this? What is t
 Nyquist frequency? Why does it still make sense to use sampling rates much higher than
 the audible spectrum to capture analog signals accurately?
 
+![Xiph Video screenshot](img/xiph_video.png)
+
 #### CCC Media: [`media.ccc.de`](https://media.ccc.de), ★★★★★
 
 > Offers a wide variety of video and audio material distributed by the Chaos
@@ -190,6 +187,8 @@ the audible spectrum to capture analog signals accurately?
 
 Streams recordings (of talks) from events by the CCC, Europe's largest association
 of hackers. Has a lot of high-quality content.
+
+![CCC media screenshot](img/ccc_media.png)
 
 ## Resources
 
@@ -212,11 +211,17 @@ The other section is the [Main Content](https://jeremykun.com/main-content/),
 which assumes that you are familiar with all the topics mentioned in the
 [Primers](https://jeremykun.com/primers/).
 
+![Main Content screenshot](img/jeremykun_main.png)
+
+![Primers screenshot](img/jeremykun_primers.png)
+
 #### [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 
 Has a very nice overview of the field of computer science, along
 with very helpful literature for most parts of it, and what is
 expected of a computer scientist to know of each of the parts.
+
+![What every computer science majoy should know screenshot](img/should_know.png)
 
 #### [Programming Language Theory](http://steshaw.org/plt/)
 
@@ -225,7 +230,9 @@ expected of a computer scientist to know of each of the parts.
 > learn it at school. This resource is here to help. 
 
 Provides a listing of resources to help deepen one's understanding
-of PLT.
+of PLT. 
+
+![Steshaw PLT screenshot](img/steshaw_plt.png)
 
 #### [Seeing Theory](http://students.brown.edu/seeing-theory/)
 
@@ -234,6 +241,8 @@ of PLT.
 Want to refresh your knowledge of probability and statistics, but
 prefer not to wade through dry textbooks? Then this page is for you.
 
+![Seeing Theory screenshot](img/seeing_theory.png)
+
 #### Crypto 101: [`crypto101.io`](https://www.crypto101.io)
 
 > An introductory course on cryptography, freely available for programmers of
@@ -241,6 +250,8 @@ prefer not to wade through dry textbooks? Then this page is for you.
 > to go through all of the major dramatis personae of cryptography to make TLS
 > work in 45 minutes. This book is the natural extension of that, with an
 > extensive focus on breaking cryptography.
+
+![Crypto 101 screenshot](img/crypto101.png)
 
 ### Books
 
@@ -264,6 +275,8 @@ Great place for beginners and more advanced people alike, whether
 you are interested in learning or improving your programming skills
 or in mathematics.
 
+![Project Euler screenshot](img/projecteuler.png)
+
 ### Crypto
 
 #### matasano: [`cryptopals.com`](http://cryptopals.com), ★★★★★
@@ -280,6 +293,8 @@ Great place for some hands-on experience with cryptography, the
 challenges aren't too difficult but they provide a good understanding
 of the theory behind some of the crypto we use.
 
+![Cryptopals screenshot](img/cryptopals.png)
+
 #### id0-rsa: [`id0-rsa.pub`](https://id0-rsa.pub),
 
 > Some problems related to computer security (specifically poorly
@@ -287,6 +302,8 @@ of the theory behind some of the crypto we use.
 > and environment you like to complete them. The problems require
 > familiarity with programming, but not necessarily with applied
 > cryptography or computer security in general.
+
+![id0-rsa screenshot](img/id0_rsa.png)
 
 ### Coding 
 
@@ -298,6 +315,8 @@ of the theory behind some of the crypto we use.
 > Systems" (ICS)
 
 Assignments involving low-level programming, some of them are quite interesting.
+
+![CS:APP3e screenshot](img/cs_app3e_lab.png)
 
 #### CodeChef: [`codechef.com`](https://www.codechef.com)
 
@@ -364,12 +383,16 @@ your code running, live.
 You take control over a warrior, by writing a minimalist A.I. to control
 him on his quest.
 
+![RubyWarrior screenshot](img/ruby_warrior.png)
+
 #### Screeps: [`screeps.com`](https://screeps.com)
 
 > Screeps means “scripting creeps.” It’s an open-source sandbox MMO RTS game
 > for programmers, wherein the core mechanic is programming your units’ AI. You
 > control your colony by writing JavaScript which operate 24/7 in the single
 > persistent real-time world filled by other players on par with you.
+
+![Screeps screenshot](img/screeps.png)
 
 ### Resources
 
@@ -383,6 +406,8 @@ more? These resources might help.
 > want to learn algorithms and possibly participate in the International
 > Olympiad in Informatics (IOI) or in the International Collegiate Programming
 > Contest (ICPC).
+
+![Competetive Programmer's Handbook screenshot](img/comp_prog_hand.png)
 
 ## Design
 
@@ -400,6 +425,8 @@ design.
 
 Need a new wallpaper? A backgroup photo for a website design? Stock photos
 to fill in some blanks?
+
+![Unsplash screenshot](img/unsplash.png)
 
 ### Fonts
 
@@ -422,6 +449,14 @@ glyphs to aesthetically spice up your `vim`.
 > range of widths, weights, and styles for richer code formatting.
 
 A particularly beautiful set of monospace fonts for programming.
+
+![Input Font screenshot](img/input_font.png)
+
+### Other
+
+#### Solarized Colorscheme
+
+*TODO.*
 
 ## Tools
 
@@ -447,6 +482,8 @@ is there for you. No more googling anything, you just download the docsets
 for all the languages (and libraries, and Ruby gems, and Npm packages, 
 and whatever else you need) and you alwasy have it with you.
 
+![Dash screenshot](img/dash.png)
+
 #### Textual: [`codeux.com/textual`](https://www.codeux.com/textual/)
 
 > The world's most popular application for interacting with Internet Relay Chat
@@ -465,6 +502,8 @@ find it directly, but the source is on
 [GitHub](https://github.com/Codeux-Software/Textual) and it is possible to
 build it from source (if you know what you're doing).
 
+![Textual 5 screenshot](img/textual.png)
+
 #### GitUp: [`gitup.co`](http://gitup.co)
 
 > Work quickly, safely, and without headaches.  The Git interface you've been
@@ -475,31 +514,21 @@ efficient to use while you're in the terminal anyways, you don't want to
 have to mess around with any buttons. But, there is just a handful of 
 things that GitUp is really good at:
 
-##### Visualizing
-
 GitUp can visualize your repo so you know exactly what's going on, and
 the great thing is that the visualization is real-time, meaning that it
 updates while you mess with your repo.
-
-![GitUp visualizing](http://gitup.co/images/map.gif)
-
-##### Undo
 
 I think this might just be the best feature of GitUp — it saves snapshots
 of your repo before and after you do things, meaning that when you do
 something stupid, you can always go back.
 
-![GitUp undo](http://gitup.co/images/snapshots.gif)
-
-##### Full-featured
-
 Basically any thing you can do with `git`, you can also do with GitUp.
-
-![GitUp features](http://gitup.co/images/editing.gif)
 
 I think as an open-source tool, GitUp is useful to have in your toolbelt.
 It might not replace your everyday use of `git`, but it will be there when 
 you need it.
+
+![GitUp screenshot](img/gitup.png)
 
 #### Alacritty: [`github.com/jwilm/alacritty`](https://github.com/jwilm/alacritty)
 
@@ -508,6 +537,8 @@ you need it.
 
 I wrote this whole document in `vim` running inside `tmux` running in `Alacritty`.
 Need I say more?
+
+![Alacritty screenshot](img/alacritty.png)
 
 ### Basics
 
@@ -688,61 +719,67 @@ basic building blocks, with most languages implemented in C. Knowing C is
 paramount when trying to understand other languages by digging into their
 source code.
 
+#### Compilers
+
+##### [Clang](https://clang.llvm.org/)
+
+##### gcc
+
 #### Tools
 
-- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+##### [Clang AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
 
->   A fast memory error detector, that can find out-of-bounds accesses, 
->   use-after-free, double-free, invalid free, memory leaks.
+> Fast memory error detector, that can find out-of-bounds accesses, 
+> use-after-free, double-free, invalid free, memory leaks.
 
-- [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
+##### [Clang LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
 
->   A run-time memory leak detector.
+> Run-time memory leak detector.
 
-- [MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
+##### [Clang MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
 
->   A detector of uninitialized reads.
+> Detector of uninitialized reads.
 
-- [UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+##### [Clang UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
 
->   A fast undefined behavior detector. Modifies the program at compile-time
->   to catch various kinds of undefined behavior during program execution, for
->   example: using misaligned or null pointers, signed integer overflows, or
->   conversion to, from, or between floating-point types which would overflow
->   the destination.
+> Fast undefined behavior detector. Modifies the program at compile-time
+> to catch various kinds of undefined behavior during program execution, for
+> example: using misaligned or null pointers, signed integer overflows, or
+> conversion to, from, or between floating-point types which would overflow
+> the destination.
 
-- [Valgrind](http://valgrind.org)
+##### [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 
->   An instrumentation framework for building dynamic analysis tools. Includes
->   tools that can automatically detect many memory management and threading
->   bugs, and profile code in detail.
+> Tool to format C/C++/Java/JavaScript/Objective-C/Protobuf code.
 
-- [pfff](https://github.com/facebook/pfff)
+##### [GDB](https://www.gnu.org/software/gdb/)
 
->   A set of tools and APIs to perform static analysis, code visualizations,
->   code navigations, or style-preserving source-to-source transformations such
->   as refactorings on source code. There is good support for C, Java,
->   Javascript and PHP. There is also preliminary support for other languages
->   such as C++, Rust, C#, Html, CSS, Erlang, Lisp, Haskell, Python, OPA and
->   SQL. There is also very good support for OCaml code so that the framework
->   can be used on the code of pfff itself.
+> The debugger we all know, love and hate.
 
-- [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
+##### [LLDB](https://lldb.llvm.org)
 
->   A tool to format C/C++/Java/JavaScript/Objective-C/Protobuf code.
+> *Next generation, high-performance* debugger.
 
->   The debugger we all know, love and hate.
+##### [pfff](https://github.com/facebook/pfff)
 
-- [GDB](https://www.gnu.org/software/gdb/)
+> A set of tools and APIs to perform static analysis, code visualizations,
+> code navigations, or style-preserving source-to-source transformations such
+> as refactorings on source code. There is good support for C, Java,
+> Javascript and PHP. There is also preliminary support for other languages
+> such as C++, Rust, C#, Html, CSS, Erlang, Lisp, Haskell, Python, OPA and
+> SQL. There is also very good support for OCaml code so that the framework
+> can be used on the code of pfff itself.
 
->   A *next generation, high-performance* debugger.
+##### [rr](http://rr-project.org)
 
-- [LLDB](https://lldb.llvm.org)
+> Record a failure once, then debug the recording, deterministically, as many
+> times as you want.
 
->   Record a failure once, then debug the recording, deterministically, as many
->   times as you want.
+##### [Valgrind](http://valgrind.org)
 
-- [rr](http://rr-project.org)
+> An instrumentation framework for building dynamic analysis tools. Includes
+> tools that can automatically detect many memory management and threading
+> bugs, and profile code in detail.
 
 #### Libraries
 
@@ -787,19 +824,19 @@ snow_main();
 
 ##### Jansson: [`github.com/akheron/jansson`](https://github.com/akheron/jansson)
 
->   Parse and generate JSON formatted data.
+> Parse and generate JSON formatted data.
 
 ##### Debug: [`github.com/esneider/debug`](https://github.com/esneider/debug)
 
->   Debug like a sir.
+> Debug like a sir.
 
 ##### utf8.h: [`github.com/sheredom/utf8.h`](https://github.com/sheredom/utf8.h)
 
->   UTF-8 string handling made easy.
+> UTF-8 string handling made easy.
 
 ##### Onigmo: [`github.com/k-takata/Onigmo`](https://github.com/k-takata/Onigmo)
 
->   Regex library, default library used by Ruby 2.0 and later.
+> Regex library, default library used by Ruby 2.0 and later.
 
 ### Rust: [`rust-lang.org`](https://rust-lang.org)
 
@@ -817,11 +854,18 @@ in many inspirations from other languages.
 
 #### Tools
 
-- [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
+##### [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
 
 >   A tool for formatting Rust code according to style guidelines.
 
-##### rustup
+##### [rustup](https://www.rustup.rs)
+
+> Installer for Rust.
+
+This description is actually a bit underwhelming, since `rustup` does a little
+more than just installing Rust. It can keep track of different toolchains for,
+you can use it to switch between channels (eg. `stable`, `beta`, `nightly`),
+and you can update each toolchain.
 
 #### Libraries
 

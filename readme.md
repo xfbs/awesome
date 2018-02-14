@@ -616,7 +616,7 @@ The one and only; the true path to programmer satisfaction.
 Which programming languages do I find cool? Which programming languages do I
 find useful? Which programming languages would I recommend to a friend to learn?
 
-### Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
+#### Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
 
 > Ruby is a language of careful balance. Its creator, Yukihiro “Matz”
 > Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel,
@@ -643,9 +643,9 @@ And in addition to that, Ruby itself is very nice to use.
 end
 ```
 
-#### Tools
+### Tools
 
-##### [Rubocop](https://github.com/bbatsov/rubocop)
+#### [Rubocop](https://github.com/bbatsov/rubocop)
 
 > A Ruby static code analyzer, based on the community Ruby style guide.
 
@@ -677,28 +677,17 @@ sum = 1+3
 puts(sum)
 ```
 
-Running `rubycop` on it produces a set of warnings:
+Running `rubycop` on it produces a set of warnings (`--format simple` reduces the
+verbosity of the output):
 
 ```bash
-$ rubocop examples/rubocop/example.rb
-Inspecting 1 file
-C
-
-Offenses:
-
-example.rb:3:1: C: Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.
-    puts "hello!"
-^^^^
-example.rb:3:10: C: Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-    puts "hello!"
-         ^^^^^^^^
-example.rb:7:11: C: Style/Semicolon: Do not use semicolons to terminate expressions.
-bad_method; bad_method
-          ^
-example.rb:10:8: C: Layout/SpaceAroundOperators: Surrounding space missing for operator +.
-sum = 1+3
-       ^
-example.rb:14:1: C: Layout/EmptyLines: Extra blank line detected.
+$ rubocop --format simple examples/rubocop/example.rb
+== examples/rubocop/example.rb ==
+C:  3:  1: Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.
+C:  3: 10: Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  7: 11: Style/Semicolon: Do not use semicolons to terminate expressions.
+C: 10:  8: Layout/SpaceAroundOperators: Surrounding space missing for operator +.
+C: 14:  1: Layout/EmptyLines: Extra blank line detected.
 
 1 file inspected, 5 offenses detected
 ```
@@ -707,32 +696,20 @@ Some, but not all issues can be corrected automatically. To tell rubocop to try
 to fix things, use the `-a` option, like so:
 
 ```bash
-$ rubocop -a examples/rubocop/example.rb
-Inspecting 1 file
-C
-
-Offenses:
-
-example.rb:3:1: C: [Corrected] Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.
-    puts "hello!"
-^^^^
-example.rb:3:10: C: [Corrected] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
-    puts "hello!"
-         ^^^^^^^^
-example.rb:7:11: C: Style/Semicolon: Do not use semicolons to terminate expressions.
-bad_method; bad_method
-          ^
-example.rb:10:8: C: [Corrected] Layout/SpaceAroundOperators: Surrounding space missing for operator +.
-sum = 1+3
-       ^
-example.rb:14:1: C: [Corrected] Layout/EmptyLines: Extra blank line detected.
+$ rubocop --format simple -a examples/rubocop/example.rb
+== examples/rubocop/example.rb ==
+C:  3:  1: [Corrected] Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.
+C:  3: 10: [Corrected] Style/StringLiterals: Prefer single-quoted strings when you don't need string interpolation or special symbols.
+C:  7: 11: Style/Semicolon: Do not use semicolons to terminate expressions.
+C: 10:  8: [Corrected] Layout/SpaceAroundOperators: Surrounding space missing for operator +.
+C: 14:  1: [Corrected] Layout/EmptyLines: Extra blank line detected.
 
 1 file inspected, 5 offenses detected, 4 offenses corrected
 ```
 
-#### Libraries
+### Libraries
 
-### Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
+#### Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
 
 > Crystal is a programming language with the following goals:
 > - Have a syntax similar to Ruby (but compatibility with it is not a goal)

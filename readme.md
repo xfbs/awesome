@@ -148,7 +148,7 @@ can we capture? What does the sampling frequency have to do with this? What is t
 Nyquist frequency? Why does it still make sense to use sampling rates much higher than
 the audible spectrum to capture analog signals accurately?
 
-### CCC Media: [`media.ccc.de`](https://media.ccc.de), ★★★★★
+#### CCC Media: [`media.ccc.de`](https://media.ccc.de), ★★★★★
 
 > Offers a wide variety of video and audio material distributed by the Chaos
 > Computer Club provided in native formats (usually MPEG and/or Vorbis families)
@@ -196,6 +196,14 @@ of PLT.
 
 Want to refresh your knowledge of probability and statistics, but
 prefer not to wade through dry textbooks? Then this page is for you.
+
+#### Crypto 101: [`crypto101.io`](https://www.crypto101.io)
+
+> An introductory course on cryptography, freely available for programmers of
+> all ages and skill levels. Started as a presentation at PyCon 2013. It tries
+> to go through all of the major dramatis personae of cryptography to make TLS
+> work in 45 minutes. This book is the natural extension of that, with an
+> extensive focus on breaking cryptography.
 
 ## Challenges
 
@@ -259,6 +267,24 @@ Assignments involving low-level programming, some of them are quite interesting.
 > programming community to host their own contests. Major institutions and
 > organizations across the globe use our platform to host their contests. On an
 > average, 30+ external contests are hosted on our platform every month.
+
+### Wargames
+
+These can help you learn security concepts by providing safe and *legal*
+environments where you can break security. It's like a sandbox for hackers.
+
+#### Over the Wire: [`overthewire.org/wargames`](https://overthewire.org/wargames/)
+
+> The wargames offered by the OverTheWire community can help you to learn and
+> practice security concepts in the form of fun-filled games.
+
+Provides a list of online (hosted) wargames, along with informations on
+how to access it (SSH access).
+
+#### We Chall: [`wechall.net`](https://www.wechall.net)
+
+Aggregates resources and links to challenges. Probably more extensive than
+my list, and also includes some rather obscure ones. Worth checking out.
 
 ### Commercial
 
@@ -361,68 +387,135 @@ A particularly beautiful set of monospace fonts for programming.
 Which programming languages do I find cool? Which programming languages do I
 find useful? Which programming languages would I recommend to a friend to learn?
 
->   Not exactly the next big thing anymore, but still my go-to programming
->   language for it's sweet syntax. Interpreted, dynamically-typed. Bonus:
->   amazing package manager *rubygems*.
+#### Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
 
-  - [Ruby](https://www.ruby-lang.org)
+> Ruby is a language of careful balance. Its creator, Yukihiro “Matz”
+> Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel,
+> Ada, and Lisp) to form a new language that balanced functional programming
+> with imperative programming.
+>
+> He has often said that he is “trying to make Ruby natural, not simple,” in a
+> way that mirrors life.  Building on this, he adds: Ruby is simple in
+> appearance, but is very complex inside, just like our human body.
 
->   Statically-typed, compiled Ruby lookalike, with a speed comparable to C
->   thanks to it's LLVM backbone. Bonus: has a package manager, *shard*.
+By far my favourite language. The syntax is very expressive, the standard
+library is really good and the package manager,
+[RubyGems](https://rubygems.org) is fantastic.
 
-  - [Crystal](https://crystal-lang.org/)
+It is very easy to install packages, called *gems* in Ruby teminology:
 
->   It just won't ever die. The grandfather of programming languages, a
->   necessary evil but also an addictive one. With a modern compiler and when
->   using the new C11 standard it's a little better.
+    $ gem install bcrypt
 
-  - [C](https://en.wikipedia.org/wiki/C_(programming_language))
+And in addition to that, Ruby itself is very nice to use. 
 
->   Statically typed, memory-safe compiled language rivalling some of C's
->   territory. Notoriously mean compiler, but fast iterations and an awesome
->   integrated package manager, *cargo* make the programmer happy.
+```ruby
+5.times do
+  puts ["Hello", "world!"].join(' ')
+end
+```
 
-  - [Rust](https://rust-lang.org)
+#### Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
 
->   What can I say? Everybody's Favourite Language (tm).
+> Crystal is a programming language with the following goals:
+> - Have a syntax similar to Ruby (but compatibility with it is not a goal)
+> - Statically type-checked but without having to specify the type of variables
+>   or method arguments.
+> - Be able to call C code by writing bindings to it in Crystal.
+> - Have compile-time evaluation and generation of code, to avoid boilerplate
+>   code.
+> - Compile to efficient native code.
 
-  - [Python](https://python.org)
+Basically, Crystal is like an improved (in terms of performance) version of
+Ruby. It is statically typed — but thanks to type inference, you don't have
+to specify types. There are some other differences, since it is a compiled
+language it's not possible to evaluate code at runtime, but in exchange
+the speed is on-par with C.
 
-<!--
-  - [chez scheme](https://github.com/cisco/ChezScheme), because I never really
-    worked with a scheme before and it's reportedly very fast. **Edit**: I might
-    use a different flavour of Scheme, [chicken scheme](http://call-cc.org),
-    because it seems a little more simplistic and doesn't have the overhead of
-    an interpreter since it's compiled (although, it might be slower than
-    `chez`).
-  - [ocaml](https://github.com/ocaml/ocaml) because I keep hearing about it in
-    unexpected places and it got me curious.
-  - [nodejs](https://github.com/nodejs/node) because all the cool kids are doing
-    it and my javascript is quite rusty.
-  - [java9](https://www.oracle.com/java/java9.html) because that's what most
-    people worldwide speak and while I'm really not a fan of java, they did add
-    some features that make it interesting.
-  - [haskell](https://www.haskell.org), because it's just been on my to do list
-    for too long.
-  - [risc5asm](https://rv8.io), because well you need to have done some assembly
-    to be able to call yourself a 'real' programmer, and x86 assembler is too
-    ordinaire for me and MIPS stopped being interesting 20 years ago.
-  - [cpp](http://clang.org), because I haven't really gotten around to playing
-    with C++14 and it could be okay.
-  - [swift](https://github.com/apple/swift), because it's seems cool even though
-    it's from a major company and not some academic tech hippies. it might even
-    be useful..
-  - [nim](https://nim-lang.org), because compiling to C, it has the potential to
-    be rather quick but with a larger standard library, and with a python-esque
-    syntax, also quite usable.
-  - [luajit](https://luajit.org/luajit.html), because I'm already familiar with
-    lua and it claims to be the 'fastest dynamic language'.
-  - [dlang](https://dlang.org/), because I've always been interested by it.
--->
+The [shards](https://crystalshards.xyz) package manager is very useful
+because it is decentralized and allows to install dependencies from any
+git repository.
+
+```crystal
+# A very basic HTTP server
+require "http/server"
+
+server = HTTP::Server.new(8080) do |context|
+  context.response.content_type = "text/plain"
+  context.response.print "Hello world, got #{context.request.path}!"
+end
+
+puts "Listening on http://127.0.0.1:8080"
+server.listen
+```
+
+#### C
+
+> C (/siː/, as in the letter c) is a general-purpose, imperative computer
+> programming language, supporting structured programming, lexical variable
+> scope and recursion, while a static type system prevents many unintended
+> operations. By design, C provides constructs that map efficiently to typical
+> machine instructions, and therefore it has found lasting use in applications
+> that had formerly been coded in assembly language, including operating
+> systems, as well as various application software for computers ranging from
+> supercomputers to embedded systems. *Source:
+> [`wikipedia.org`](https://en.wikipedia.org/wiki/C_(programming_language))*
+
+C is a little bit of an oddball: It doesn't really have a website that I
+could link to. But I guess that's okay, I mean basically everyone knows it.
+
+What is awesome about it, you ask? The fact that it is still alive. It might
+not be the nicest of all languages. In fact, when categorizing it, it is
+easiest to list the things that it doesn't have. Without a package manager,
+building code is usually done with an embarassingly fragile set of scripts that
+are prone to failure when run on an unfamiliar platform. Without namespacing,
+most libraries prefix all functions and macros with the name of the library.
+Without memory safety, we need all kinds of tools, sanitizers, fuzzers and
+checkers to test if programs leak and behave, and even with these tools bugs
+and security issues are common. But despite all of that, C is still the most
+important language. Not because it is pretty, but because it is one of the most
+basic building blocks, with most languages implemented in C. Knowing C is
+paramount when trying to understand other languages by digging into their
+source code.
+
+#### Rust: [`rust-lang.org`](https://rust-lang.org)
+
+> Rust is a systems programming language that runs blazingly fast, prevents
+> segfaults, and guarantees thread safety.
+>
+> Featuring: zero-cost abstractions, move semantics, guaranteed memory safety,
+> threads without data races, trait-based generics, pattern matching, type
+> inference, minimal runtime, efficient C bindings, 
+
+We all have a joke or two about a hipster programmer wildly fighting the
+Rust borrow checker. It's a beautiful language, with a very intimidating
+promise and the potential to rival C. It does have a sweet syntax, taking
+in many inspirations from other languages.
+
+#### Python: [`python.org`](https://python.org)
+
+#### Chicken Scheme: [`call-cc.org`](http://call-cc.org)
+
+#### OCaml: [ocaml](https://github.com/ocaml/ocaml)
+
+#### Node.js: [nodejs](https://github.com/nodejs/node)
+
+#### Java9: [java9](https://www.oracle.com/java/java9.html)
+
+#### Haskell: [haskell](https://www.haskell.org)
+
+#### RISC5: [risc5asm](https://rv8.io)
+
+#### C++: [cpp](http://clang.org)
+
+#### Swift: [swift](https://github.com/apple/swift)
+
+#### Nim: [nim](https://nim-lang.org)
+
+#### LuaJIT: [luajit](https://luajit.org/luajit.html)
+
+#### D: [`dlang.org`](https://dlang.org/)
 
 ## Tools
-
->   The master is only as good as the tools he uses.
 
 In this section I will showcase the most useful tools that I have an use. These
 include both command-line and GUI tools. I'm a big proponent for doing things
@@ -445,6 +538,26 @@ even if you want to look up the source code of a particular function, Dash
 is there for you. No more googling anything, you just download the docsets
 for all the languages (and libraries, and Ruby gems, and Npm packages, 
 and whatever else you need) and you alwasy have it with you.
+
+### Chatting
+
+#### Textual: [`codeux.com/textual`](https://www.codeux.com/textual/)
+
+> The world's most popular application for interacting with Internet Relay Chat
+> (IRC) chatrooms on macOS.  Includes two elegantly designed dark and light
+> variants of the user interface which have been refined all the way down to
+> the very last pixel.  Supports very powerful modern technologies such as
+> native IPv6, the latest IRCv3 specifications, client-side certificate
+> authentication, and much, much more in a easy to navigate, clutter free
+> environment.  Protects your privacy by leveraging widely accepted, proven
+> technologies such as Off-the-Record Messaging (OTR) to ensure that the only
+> people reading your conversations are those that you intend to.
+
+My favourite (and only) GUI IRC client on macOS. It's really beautiful, it just
+works, it's not overloaded. Also, it's open source — on the website you won't
+find it directly, but the source is on
+[GitHub](https://github.com/Codeux-Software/Textual) and it is possible to
+build it from source (if you know what you're doing).
 
 ### Terminal
 
@@ -539,13 +652,48 @@ functionality you need.
 
 ### Version Control
 
-Version Control is to programming as insurance is to driving your car: you might
-not like it at first, but after you've experienced one or another situtation,
-you'll be happy to have it.
+Version control is the bread and butter of modern day programming.
 
->   The one and only; the true path to programmer satisfaction.
+#### Git: [`git-scm.com`](https://git-scm.com)
 
-- [git](https://git-scm.com)
+The one and only; the true path to programmer satisfaction.
+
+
+#### GitUp: [`gitup.co`](http://gitup.co)
+
+> Work quickly, safely, and without headaches.  The Git interface you've been
+> missing all your life has finally arrived.
+
+Normally, the `git` command-line tool is just what you need. It's more
+efficient to use while you're in the terminal anyways, you don't want to
+have to mess around with any buttons. But, there is just a handful of 
+things that GitUp is really good at:
+
+##### Visualizing
+
+GitUp can visualize your repo so you know exactly what's going on, and
+the great thing is that the visualization is real-time, meaning that it
+updates while you mess with your repo.
+
+![GitUp visualizing](http://gitup.co/images/map.gif)
+
+##### Undo
+
+I think this might just be the best feature of GitUp — it saves snapshots
+of your repo before and after you do things, meaning that when you do
+something stupid, you can always go back.
+
+![GitUp undo](http://gitup.co/images/snapshots.gif)
+
+##### Full-featured
+
+Basically any thing you can do with `git`, you can also do with GitUp.
+
+![GitUp features](http://gitup.co/images/editing.gif)
+
+I think as an open-source tool, GitUp is useful to have in your toolbelt.
+It might not replace your everyday use of `git`, but it will be there when 
+you need it.
 
 ### Static Analysis
 

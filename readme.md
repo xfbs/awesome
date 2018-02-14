@@ -1,12 +1,25 @@
 # Awesome
 
-My own curated list of awesome things.
+My own curated (meaning subjective) list of awesome things. [Unlicensed](license.md)
+for maximum fork enjoyment. Feel free to send pull requests in case I missed anything!
+
+This is kind of supposed to be a replacement for my Safari bookmarks.
 
 ## Table of Contents
 
-- [News](#news)
-- [Blogs](#blogs)
-- [Puzzles](#puzzles)
+- [Entertainment](#entertainment)
+    - [Journals](#journals)
+    - [News](#news)
+    - [Blogs](#blogs)
+    - [Videos](#videos)
+- [Resources](#resources)
+- [Challenges](#challenges)
+    - [Math](#math)
+    - [Crypto](#crypto)
+    - [Coding](#coding)
+    - [Commercial](#commercial)
+- [Design](#design)
+    - [Photography](#photography)
 - [Programming Languages](#programming-languages)
 - [Tools](#tools)
     - [Terminal](#terminal)
@@ -24,12 +37,29 @@ My own curated list of awesome things.
     - [Papers](#papers)
 - [Further](#further)
 
-## News
+
+## Entertainment
+
+### Journals
+
+Semi-regular publications. As the publication frequency is much lower than
+news websites, these can go into much more detail and are thus probably the
+best way to s
+
+#### PoC||GTFO: [`alchemistowl.org/pocorgtfo`](https://www.alchemistowl.org/pocorgtfo/)
+
+> The international journal of *Proof of Concept or Get The Fuck Out*.
+
+Contains a healthy mixture of humorous and very in-depth technical articles of
+how to hack, with a focus on retro hardware and mind-boggling file format
+hackery.
+
+### News
 
 As François put it:
 
->   “Tell me what you read and I'll tell you who you are" is true enough, but
->   I'd know you better if you told me what you reread.”
+> “Tell me what you read and I'll tell you who you are" is true enough, but
+> I'd know you better if you told me what you reread.”
 
 These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
@@ -74,57 +104,257 @@ Generic tech news.
 <!-- TODO: description -->
 News from silicon valley.
 
-## Blogs
+### Blogs
 
 A few technology/culture centric blogs woth checking out.
 
+#### /dev/lawyer: [`writing.kemitchell.com`](https://writing.kemitchell.com)
+
 > *Law, technology, and the space between*.
 
-- [`/dev/lawyer`](https://writing.kemitchell.com)
+#### Julia Evans: [`jvns.ca`](https://jvns.ca)
 
 > Regular writings involving Rust, Ruby and how to take things like syscalls
 > apart.
 
-- [Julia Evans](https://jvns.ca)
+#### Eli Bendersky's Website: [`eli.thegreenplace.net`](https://eli.thegreenplace.net/)
 
-## Puzzles
+> This blog began in 2003 as a personal online journal; in the past
+> few years it became mostly an outlet for technical, programming-related posts.
+> It's my way to document things I find interesting for my future self.
 
-> *A series of challenging mathematical/computer programming problems
+Blog about programming in a variety of languages, including Python, C, C++.
+
+### Videos
+
+#### devttys0: [YouTube Channel](https://www.youtube.com/channel/UCuEqgu-PN4B2Jm_B5tccPCA), ★★★★★
+
+> Adventures in learning and designing analog electronics!
+
+#### Micah Elizabeth Scott: [YouTube Channel](https://www.youtube.com/channel/UCaEgw3321ct_PE4PJvdhXEQ), ★★★★★
+
+> Art, engineering, reverse engineering, and cats!
+
+The awesome fusion of programming and electronics.
+
+#### Xiph Videos [`xiph.org/video`](https://www.xiph.org/video/), ★★★★★
+
+> *[Mini-] series of self-produced videos to spread techie-level knowledge about digital media*.
+
+This two-part series, consisting of *A Digital Media Primer for Geeks* and
+*Digital Show & Tell*, you can learn about the interface between analog and digital:
+how are analog singals captured? How are they reproduced? What kinds of analog signals
+can we capture? What does the sampling frequency have to do with this? What is the
+Nyquist frequency? Why does it still make sense to use sampling rates much higher than
+the audible spectrum to capture analog signals accurately?
+
+### CCC Media: [`media.ccc.de`](https://media.ccc.de), ★★★★★
+
+> Offers a wide variety of video and audio material distributed by the Chaos
+> Computer Club provided in native formats (usually MPEG and/or Vorbis families)
+> for online viewing. Older, archived recordings might require proprietary
+> players. The media files on this site can also be downloaded for offline consumption.
+
+Streams recordings (of talks) from events by the CCC, Europe's largest association
+of hackers. Has a lot of high-quality content.
+
+## Resources
+
+You want to learn something? You've come to the right place.
+
+#### Math ∩ Programming: [`jeremykun.com`](https://jeremykun.com)
+
+Has two sections, which are of equally high quality: the 
+[Primers](https://jeremykun.com/primers/), which are a terse explanation of
+mathematical concepts that are used or useful in computer science.
+Is there a topic in mathematics that you don't quite understand or you
+want to refresh, but you don't want to read an 800-page mathematics
+textbook? Then this section is for you. 
+
+The other section is the [Main Content](https://jeremykun.com/main-content/),
+which assumes that you are familiar with all the topics mentioned in the
+[Primers](https://jeremykun.com/primers/).
+
+#### [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+
+Has a very nice overview of the field of computer science, along
+with very helpful literature for most parts of it, and what is
+expected of a computer scientist to know of each of the parts.
+
+#### [Programming Language Theory](http://steshaw.org/plt/)
+
+> Finding a path to enlightenment in Programming Language Theory can
+> be a tough one, particularly for programming practitioners who didn’t
+> learn it at school. This resource is here to help. 
+
+Provides a listing of resources to help deepen one's understanding
+of PLT.
+
+#### [Seeing Theory](http://students.brown.edu/seeing-theory/)
+
+> A visual introduction to probability and statistics.
+
+Want to refresh your knowledge of probability and statistics, but
+prefer not to wade through dry textbooks? Then this page is for you.
+
+## Challenges
+
+So you think you can code? Well, prove yourself wrong with any one of these
+challenges. Choose from math, crypto or coding-themed puzzles.
+
+### Math
+
+#### Project Euler: [`projecteuler.net`](https://projecteuler.net/), ★★★★★
+
+> A series of challenging mathematical/computer programming problems
 > that will require more than just mathematical insights to solve.
 > Provides a platform for the inquiring mind to delve into unfamiliar
-> areas and learn new concepts in a fun and recreational context*.
-> Great place for beginners and more advanced people alike, whether
-> you are interested in learning or improving your programming skills
-> or in mathematics.
+> areas and learn new concepts in a fun and recreational context.
 
-- [Project Euler](https://projecteuler.net/), ★★★★★☆☆☆☆☆
+Great place for beginners and more advanced people alike, whether
+you are interested in learning or improving your programming skills
+or in mathematics.
 
-> *This is a different way to learn about crypto than taking a class
+### Crypto
+
+#### matasano: [`cryptopals.com`](http://cryptopals.com), ★★★★★
+
+> A different way to learn about crypto than taking a class
 > or reading a book. We give you problems to solve. They're derived
 > from weaknesses in real-world systems and modern cryptographic
 > constructions. We give you enough info to learn about the underlying
 > crypto concepts yourself. When you're finished, you'll not only have
 > learned a good deal about how cryptosystems are built, but you'll also
-> understand how they're attacked*.
-> Great place for some hands-on experience with cryptography, the
-> challenges aren't too difficult but they provide a good understanding
-> of the theory behind some of the crypto we use.
+> understand how they're attacked.
 
-- [matasano](http://cryptopals.com)
+Great place for some hands-on experience with cryptography, the
+challenges aren't too difficult but they provide a good understanding
+of the theory behind some of the crypto we use.
 
-> *Some problems related to computer security (specifically poorly
+#### id0-rsa: [`id0-rsa.pub`](https://id0-rsa.pub),
+
+> Some problems related to computer security (specifically poorly
 > implemented security). You are free to use any language
 > and environment you like to complete them. The problems require
 > familiarity with programming, but not necessarily with applied
-> cryptography or computer security in general*.
+> cryptography or computer security in general.
 
-- [id0-rsa](https://id0-rsa.pub)
+### Coding 
 
->   Commercial puzzle websites
+#### CS:APP3e Lab Assignments: [`csapp.cs.cmu.edu/3e/labs.html`](http://csapp.cs.cmu.edu/3e/labs.html)
 
-- [HackerRank](https://www.hackerrank.com)
-- [LeetCode](https://leetcode.com)
-- [CodeChef](https://www.codechef.com)
+> This book (CS:APP3e) is the third edition of a book that stems from the
+> introductory computer systems course we developed at Carnegie Mellon
+> University, starting in the Fall of 1998, called "Introduction to Computer
+> Systems" (ICS)
+
+Assignments involving low-level programming, some of them are quite interesting.
+
+#### CodeChef: [`codechef.com`](https://www.codechef.com)
+
+> CodeChef was created as a platform to help programmers make it big in the
+> world of algorithms, computer programming and programming contests. We host
+> three featured contests every month and give away prizes and goodies to the
+> winners as encouragement. Apart from this, the platform is open to the entire
+> programming community to host their own contests. Major institutions and
+> organizations across the globe use our platform to host their contests. On an
+> average, 30+ external contests are hosted on our platform every month.
+
+### Commercial
+
+There are also some commecial challenges. These websites might offer paid
+subscriptions or they might be sponsored by companies and used as recruitment
+tools. They still have interesting problems — but some people use these as a
+means to get hired instead of out of the pure pleasure of solving a
+(complicated) problem.
+
+#### HackerRank: [`hackerrank.com`](https://www.hackerrank.com)
+
+> The HackerRank team is on a mission to match every developer in the world to
+> the right job by providing a technical recruiting platform that assesses
+> developers based on actual coding skills. Our solution is revolutionizing the
+> way companies discover and evaluate talented developers. HackerRank is the
+> destination for the best developers to hone their skills and for companies to
+> find top software developers.
+
+#### LeetCode: [`leetcode.com`](https://leetcode.com)
+
+> Over 750 questions for you to practice. Come and join one of the largest tech
+> communities with hundreds of thousands of active users and participate in our
+> contests to challenge yourself and earn rewards.
+
+### Fun
+
+There are also some challenges that are a little more game-like. Some of these
+might be good for beginners, while others might be good because you can watch
+your code running, live.
+
+#### RubyWarrior: [`bloc.io/ruby-warrior`](https://www.bloc.io/ruby-warrior)
+
+> A TRIUMPHANT QUEST OF ADVENTURE, LOVE & DESTINY 
+> ALL WITHIN A FEW LINES OF CODE
+
+You take control over a warrior, by writing a minimalist A.I. to control
+him on his quest.
+
+#### Screeps: [`screeps.com`](https://screeps.com)
+
+> Screeps means “scripting creeps.” It’s an open-source sandbox MMO RTS game
+> for programmers, wherein the core mechanic is programming your units’ AI. You
+> control your colony by writing JavaScript which operate 24/7 in the single
+> persistent real-time world filled by other players on par with you.
+
+### Resources
+
+You need help with some of these challenges? Or you want to learn
+more? These resources might help.
+
+#### Competetive Programmer's Handbook: [`cses.fi/book.html`](https://cses.fi/book.html)
+
+> The purpose of this book is to give the reader a thorough introduction to
+> competitive programming. The book is especially intended for students who
+> want to learn algorithms and possibly participate in the International
+> Olympiad in Informatics (IOI) or in the International Collegiate Programming
+> Contest (ICPC).
+
+## Design
+
+Programming and Design is inseparably linked — whenever you write code, you design.
+That could be the design of the framework, the design of the API, or the
+design of the UI. These are some resources that are related to programming and
+design.
+
+### Photography
+
+#### Unsplash: [`unsplash.com`](https://unsplash.com), ★★★★★
+
+> Over 300,000 free (do whatever you want) high-resolution photos brought
+> to you by the world’s most generous community of photographers.
+
+Need a new wallpaper? A backgroup photo for a website design? Stock photos
+to fill in some blanks?
+
+### Fonts
+
+#### nerd-fonts: [`github.com/ryanoasis/nerd-fonts`](https://github.com/ryanoasis/nerd-fonts)
+
+> Project that patches developer targeted fonts with a high number of glyphs
+> (icons). Specifically to add a high number of extra glyphs from popular 'iconic
+> fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶, and others.
+
+These are particularily well-suited for use as console fonts, being a
+lovechild of traditional monospaced programming fonts and iconic fonts
+means you can both use them for programming work as well as to disply
+fontawesome icons as outputs in scripts or you can use the powerline
+glyphs to aesthetically spice up your `vim`.
+
+#### Input: [`input.fontbureau.com`](http://input.fontbureau.com)
+
+> Flexible system of fonts designed specifically for code by David Jonathan
+> Ross. It offers both monospaced and proportional fonts, all with a large
+> range of widths, weights, and styles for richer code formatting.
+
+A particularly beautiful set of monospace fonts for programming.
 
 ## Programming Languages
 
@@ -194,7 +424,27 @@ find useful? Which programming languages would I recommend to a friend to learn?
 
 >   The master is only as good as the tools he uses.
 
-In this section I will showcase the most useful tools that I have an use.
+In this section I will showcase the most useful tools that I have an use. These
+include both command-line and GUI tools. I'm a big proponent for doing things
+the command-line way, but there are some things here and there that GUIs are
+just better at.
+
+### Documentation Browsers
+
+#### Dash: [`kapeli.com/dash`](https://kapeli.com/dash)
+
+> An API Documentation Browser and Code Snippet Manager. Dash stores snippets
+> of code and instantly searches offline documentation sets for 200+ APIs, 
+> 100+ cheat sheets and more. You can even generate your own docsets or request
+> docsets to be included.
+
+I literally don't know what I would do without Dash. If you need to find out
+the name of a method of a function in a given programming language, if you
+need to find out how a given library function works, or for some languages
+even if you want to look up the source code of a particular function, Dash
+is there for you. No more googling anything, you just download the docsets
+for all the languages (and libraries, and Ruby gems, and Npm packages, 
+and whatever else you need) and you alwasy have it with you.
 
 ### Terminal
 

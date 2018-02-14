@@ -57,26 +57,39 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Commercial](#commercial)
 
 </details>
+<details><summary><a href="#design">Design</a></summary>
 
-- [Design](#design)
-    - [Photography](#photography)
-- [Programming Languages](#programming-languages)
-- [Tools](#tools)
-    - [Terminal](#terminal)
-    - [Editors](#editors)
-    - [Version Control](#version-control)
-    - [Static Analysis](#static-analysis)
-    - [Code Formatter](#code-formatter)
-    - [Code Sanitizers](#code-sanitizers)
-    - [Debuggers](#debuggers)
-- [Libraries](#libraries)
-    - [C Libraries](#c-libraries)
-    - [C++ Libraries](#c-libraries-1)
-- [Reading](#reading)
-    - [Books](#books)
-    - [Papers](#papers)
-- [Further](#further)
+- [Photography](#photography)
+- [Fonts](#fonts)
 
+</details>
+<details><summary><a href="#programming-languages">Programming Languages</a></summary>
+</details>
+<details><summary><a href="#tools">Tools</a></summary>
+
+- [Terminal](#terminal)
+- [Editors](#editors)
+- [Version Control](#version-control)
+- [Static Analysis](#static-analysis)
+- [Code Formatter](#code-formatter)
+- [Code Sanitizers](#code-sanitizers)
+- [Debuggers](#debuggers)
+
+</details>
+<details><summary><a href="#libraries">Libraries</a></summary>
+
+- [C Libraries](#c-libraries)
+- [C++ Libraries](#c-libraries-1)
+
+</details>
+<details><summary><a href="#reading">Reading</a></summary>
+
+- [Books](#books)
+- [Papers](#papers)
+
+</details>
+<details><summary><a href="#further">Further</a></summary>
+</details>
 
 ## Entertainment
 

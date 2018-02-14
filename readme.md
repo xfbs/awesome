@@ -36,19 +36,22 @@ and related topics.
 
 #### Lobsters: [`lobste.rs`](https://lobste.rs/), ★★★★★
 
-*A technology-focused community centered around link aggregation and discussion*.
+*Technology-focused community centered around link aggregation and discussion*.
+
 All links are user-submitted, small friendly community, invite-only and ad free.
 
 #### Hacker News: [`news.ycombinator.com`](https://news.ycombinator.com/), ★★★★☆
 
-*A social news website focusing on computer science and entrepreneurship*. Run by
-startup fund Y Combinator. User-submitten link aggregator, bigger community,
+*Social news website focusing on computer science and entrepreneurship*. 
+
+Run by startup fund Y Combinator. User-submitten link aggregator, bigger community,
 less personal but also ad-free.
 
 #### The Register: [`theregister.co.uk`](http://www.theregister.co.uk/), ★★★★☆
 
-*Independent news and views for the tech community*. Based in London, UK.
-Does some really good dry humor, as you would expect.
+*Independent news and views for the tech community*.
+
+Based in London, UK. Does some really good dry humor, as you would expect.
 
 #### Ars Technica: [`arstechnica.com`](https://arstechnica.com/), ★★★★☆
 
@@ -58,6 +61,7 @@ News, guides, reviews, and features.
 #### Hubski: [`hubski.com`](http://hubski.com), ★★★★☆
 
 *A community for sharing thoughtful information and conversation*. 
+
 Similar to [Lobsters](#lobsters), but focussed on science in general.
 
 #### The Verge: [`theverge.com`](https://www.theverge.com), ★★★☆☆

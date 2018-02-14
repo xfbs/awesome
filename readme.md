@@ -8,25 +8,25 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 ## Contents
 
 - [Entertainment](#entertainment)
-    - [Journals](#journals) *semi-regular publications*
-    - [News](#news) *news sites worth reading*
-    - [Blogs](#blogs) *blogs worth reading*
-    - [Videos](#videos) *videos worth watching*
-- [Resources](#resources) *learning resources*
-    - [Web](#web) *useful websites*
-    - [Books](#books) *must-read books*
-    - [Papers](#papers) *must-read papers*
-- [Challenges](#challenges) *programming challenges*
-    - [Math](#math) *focussed on (higher) math*
-    - [Crypto](#crypto) *focussed on (applied) crypto*
-    - [Coding](#coding) *generic programming problems*
-    - [Commercial](#commercial) *commercial platforms*
-    - [Resources](#resources-1) *things that might help to solve these*
-- [Design](#design)
-    - [Photography](#photography)
-    - [Fonts](#fonts)
-- [Programming Languages](#programming-languages)
-- [Tools](#tools)
+    - [Journals](#journals) *I recommend.*
+    - [News](#news) *sites for professionals.*
+    - [Blogs](#blogs) *worth reading.*
+    - [Videos](#videos) *worth watching.*
+- [Resources](#resources) *for learning.*
+    - [Web](#web) *sites with useful content.*
+    - [Books](#books) *must-read.*
+    - [Papers](#papers) *must-read.*
+- [Challenges](#challenges) *for programmer.*
+    - [Math](#math) *focussed puzzles.*
+    - [Crypto](#crypto) *focussed puzzles*
+    - [Coding](#coding) *generic problems.*
+    - [Commercial](#commercial) *platforms.*
+    - [Resources](#resources-1) *that might help in solving these.*
+- [Design](#design) *resources that I find helpful*
+    - [Photography](#photography) *that you can use in your designs*
+    - [Fonts](#fonts) *that are suitable for your console*
+- [Programming Languages](#programming-languages) *that I find amazing*
+- [Tools](#tools) *that I find essential*
     - [Terminal](#terminal)
     - [Editors](#editors)
     - [Version Control](#version-control)

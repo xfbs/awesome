@@ -87,42 +87,40 @@ and related topics.
 
 ### [Lobste.rs](https://lobste.rs/)
 
+![Lobsters screenshot](img/lobsters.png)
+
 Technology-focused community centered around link aggregation and discussion.
 
 All links are user-submitted. Small friendly community. Invite-only and ad free.
 
-![Lobsters screenshot](img/lobsters.png)
-
 ### [Hacker News](https://news.ycombinator.com/)
+
+![Hacker News screenshot](img/hacker_news.png)
 
 Social news website focusing on computer science and entrepreneurship.
 
 Run by startup fund Y Combinator. User-submitten link aggregator, bigger community,
 less personal but also ad-free.
 
-![Hacker News screenshot](img/hacker_news.png)
+### [The Register](http://www.theregister.co.uk/)
 
-### [The Registe](http://www.theregister.co.uk/)
+![The Register screenshot](img/theregister.png)
 
 Independent news and views for the tech community.
 
 Based in London, UK. Does some really good dry humor, as you would expect.
 
-![The Register screenshot](img/theregister.png)
-
 ### [Ars Technica](https://arstechnica.com/)
+![Ars Technica screenshot](img/arstechnica.png)
 
 News, guides, reviews, and features.
 
-![Ars Technica screenshot](img/arstechnica.png)
-
 ### [Hubski](http://hubski.com)
+![Hubski screenshot](img/hubski.png)
 
 A community for sharing thoughtful information and conversation.
 
 Similar to [Lobsters](#lobsters), but focussed on science in general.
-
-![Hubski screenshot](img/hubski.png)
 
 ### [The Verge](https://www.theverge.com)
 
@@ -159,13 +157,13 @@ Blog about programming in a variety of languages, including Python, C, C++.
 
 ## Videos
 
-#### devttys0: [YouTube Channel](https://www.youtube.com/channel/UCuEqgu-PN4B2Jm_B5tccPCA), ★★★★★
+### [devttys0](https://www.youtube.com/channel/UCuEqgu-PN4B2Jm_B5tccPCA)
 
 Adventures in learning and designing analog electronics!
 
 ![devttys0 screenshot](img/devttys0.png)
 
-#### Micah Elizabeth Scott: [YouTube Channel](https://www.youtube.com/channel/UCaEgw3321ct_PE4PJvdhXEQ), ★★★★★
+### [Micah Elizabeth Scott](https://www.youtube.com/channel/UCaEgw3321ct_PE4PJvdhXEQ)
 
 Art, engineering, reverse engineering, and cats!
 
@@ -173,9 +171,7 @@ The awesome fusion of programming and electronics.
 
 ![Micah Elizabeth Scott screenshot](img/micahelizabethscott.png)
 
-#### Xiph Videos [`xiph.org/video`](https://www.xiph.org/video/), ★★★★★
-
-*[Mini-] series of self-produced videos to spread techie-level knowledge about digital media*.
+### [Xiph Videos](https://www.xiph.org/video/)
 
 This two-part series, consisting of *A Digital Media Primer for Geeks* and
 *Digital Show & Tell*, you can learn about the interface between analog and digital:
@@ -186,7 +182,7 @@ the audible spectrum to capture analog signals accurately?
 
 ![Xiph Video screenshot](img/xiph_video.png)
 
-#### CCC Media: [`media.ccc.de`](https://media.ccc.de), ★★★★★
+### [CCC Media](https://media.ccc.de)
 
 Offers a wide variety of video and audio material distributed by the Chaos
 Computer Club, Europe's largest association of hackers,  provided in native

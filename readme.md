@@ -241,6 +241,15 @@ my desk).
 
 ## Books
 
+### [Letter Fountain](https://books.google.de/books/about/Letter_Fountain.html?id=1CS5oAEACAAJ&redir_esc=y&hl=en)
+
+ISBN: 978-3836554534
+
+Ditch graphic designer and Dutch Fontana Publishers founder explains all you
+ever wanted to know about printing letters and numbers. In the book, he not
+only explains the basics of lettering, but also examines in detail over 150
+typefaces, their unique characteristics and where they come from.
+
 ## Papers
 
 # Challenges
@@ -628,6 +637,14 @@ Nuremberg, using Donald E. Knuth's concept of Literate Programming, both
 for the implementation and the documentation. Written in C and Assembler
 for the Intel x86 architecture. It is available in source form, and
 as book, which includes the documentation and the source code.
+
+### [xv6](https://pdos.csail.mit.edu/6.828/2017/xv6.html)
+![img/xv6.png]
+
+A Unix-like operating systems in less than 10kLoC. Comes with booklets
+containing the complete source code as well as with a commentary explaining
+how things work. Minimalistic, but good to understand the basic concepts
+of how operating systems work.
 
 # Languages
 

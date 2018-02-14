@@ -25,15 +25,12 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Design](#design) *resources that might help you*.
     - [Photography](#photography)
     - [Fonts](#fonts)
-- [Programming Languages](#programming-languages) *that I love*.
 - [Tools](#tools) *that I find essential*.
     - [Basics](#basics)
     - [GUI](#gui)
-    - [Programming](#programming)
-    - [Debugging](#debuggers)
-- [Libraries](#libraries) *that are useful*.
-    - [C Libraries](#c-libraries)
-    - [C++ Libraries](#c-libraries-1)
+- [Languages](#languages)
+    - [C](#c-language)
+    - [C++](#c-language-1)
 - [Further](#further) *things I don't know how to categorize*.
 
 ## Entertainment
@@ -383,139 +380,6 @@ glyphs to aesthetically spice up your `vim`.
 
 A particularly beautiful set of monospace fonts for programming.
 
-## Programming Languages
-
-Which programming languages do I find cool? Which programming languages do I
-find useful? Which programming languages would I recommend to a friend to learn?
-
-#### Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
-
-> Ruby is a language of careful balance. Its creator, Yukihiro “Matz”
-> Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel,
-> Ada, and Lisp) to form a new language that balanced functional programming
-> with imperative programming.
->
-> He has often said that he is “trying to make Ruby natural, not simple,” in a
-> way that mirrors life.  Building on this, he adds: Ruby is simple in
-> appearance, but is very complex inside, just like our human body.
-
-By far my favourite language. The syntax is very expressive, the standard
-library is really good and the package manager,
-[RubyGems](https://rubygems.org) is fantastic.
-
-It is very easy to install packages, called *gems* in Ruby teminology:
-
-    $ gem install bcrypt
-
-And in addition to that, Ruby itself is very nice to use. 
-
-```ruby
-5.times do
-  puts ["Hello", "world!"].join(' ')
-end
-```
-
-#### Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
-
-> Crystal is a programming language with the following goals:
-> - Have a syntax similar to Ruby (but compatibility with it is not a goal)
-> - Statically type-checked but without having to specify the type of variables
->   or method arguments.
-> - Be able to call C code by writing bindings to it in Crystal.
-> - Have compile-time evaluation and generation of code, to avoid boilerplate
->   code.
-> - Compile to efficient native code.
-
-Basically, Crystal is like an improved (in terms of performance) version of
-Ruby. It is statically typed — but thanks to type inference, you don't have
-to specify types. There are some other differences, since it is a compiled
-language it's not possible to evaluate code at runtime, but in exchange
-the speed is on-par with C.
-
-The [shards](https://crystalshards.xyz) package manager is very useful
-because it is decentralized and allows to install dependencies from any
-git repository.
-
-```crystal
-# A very basic HTTP server
-require "http/server"
-
-server = HTTP::Server.new(8080) do |context|
-  context.response.content_type = "text/plain"
-  context.response.print "Hello world, got #{context.request.path}!"
-end
-
-puts "Listening on http://127.0.0.1:8080"
-server.listen
-```
-
-#### C
-
-> C (/siː/, as in the letter c) is a general-purpose, imperative computer
-> programming language, supporting structured programming, lexical variable
-> scope and recursion, while a static type system prevents many unintended
-> operations. By design, C provides constructs that map efficiently to typical
-> machine instructions, and therefore it has found lasting use in applications
-> that had formerly been coded in assembly language, including operating
-> systems, as well as various application software for computers ranging from
-> supercomputers to embedded systems. *Source:
-> [`wikipedia.org`](https://en.wikipedia.org/wiki/C_(programming_language))*
-
-C is a little bit of an oddball: It doesn't really have a website that I
-could link to. But I guess that's okay, I mean basically everyone knows it.
-
-What is awesome about it, you ask? The fact that it is still alive. It might
-not be the nicest of all languages. In fact, when categorizing it, it is
-easiest to list the things that it doesn't have. Without a package manager,
-building code is usually done with an embarassingly fragile set of scripts that
-are prone to failure when run on an unfamiliar platform. Without namespacing,
-most libraries prefix all functions and macros with the name of the library.
-Without memory safety, we need all kinds of tools, sanitizers, fuzzers and
-checkers to test if programs leak and behave, and even with these tools bugs
-and security issues are common. But despite all of that, C is still the most
-important language. Not because it is pretty, but because it is one of the most
-basic building blocks, with most languages implemented in C. Knowing C is
-paramount when trying to understand other languages by digging into their
-source code.
-
-#### Rust: [`rust-lang.org`](https://rust-lang.org)
-
-> Rust is a systems programming language that runs blazingly fast, prevents
-> segfaults, and guarantees thread safety.
->
-> Featuring: zero-cost abstractions, move semantics, guaranteed memory safety,
-> threads without data races, trait-based generics, pattern matching, type
-> inference, minimal runtime, efficient C bindings, 
-
-We all have a joke or two about a hipster programmer wildly fighting the
-Rust borrow checker. It's a beautiful language, with a very intimidating
-promise and the potential to rival C. It does have a sweet syntax, taking
-in many inspirations from other languages.
-
-#### Python: [`python.org`](https://python.org)
-
-#### Chicken Scheme: [`call-cc.org`](http://call-cc.org)
-
-#### OCaml: [ocaml](https://github.com/ocaml/ocaml)
-
-#### Node.js: [nodejs](https://github.com/nodejs/node)
-
-#### Java9: [java9](https://www.oracle.com/java/java9.html)
-
-#### Haskell: [haskell](https://www.haskell.org)
-
-#### RISC5: [risc5asm](https://rv8.io)
-
-#### C++: [cpp](http://clang.org)
-
-#### Swift: [swift](https://github.com/apple/swift)
-
-#### Nim: [nim](https://nim-lang.org)
-
-#### LuaJIT: [luajit](https://luajit.org/luajit.html)
-
-#### D: [`dlang.org`](https://dlang.org/)
-
 ## Tools
 
 In this section I will showcase the most useful tools that I have an use. These
@@ -673,20 +537,6 @@ Need I say more?
 
 The one and only; the true path to programmer satisfaction.
 
-### Programming
-
-- [rubocop](https://github.com/bbatsov/rubocop)
-
->   A Ruby static code analyzer, based on the community Ruby style guide. Some
->   of the violations it finds it can, if you want it to, fix itself.
-
-- [clang-tidy](http://clang.llvm.org/extra/clang-tidy/)
-
->   A clang-based C++ “linter” tool. Its purpose is to provide an extensible
->   framework for diagnosing and fixing typical programming errors, like style
->   violations, interface misuse, or bugs that can be deduced via static
->   analysis.
-
 - [pfff](https://github.com/facebook/pfff)
 
 >   A set of tools and APIs to perform static analysis, code visualizations,
@@ -705,32 +555,6 @@ The one and only; the true path to programmer satisfaction.
 
 >   A tool for formatting Rust code according to style guidelines.
 
-- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
-
->   A fast memory error detector, that can find out-of-bounds accesses, 
->   use-after-free, double-free, invalid free, memory leaks.
-
-- [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
-
->   A run-time memory leak detector.
-
-- [MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
-
->   A detector of uninitialized reads.
-
-- [UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
-
->   A fast undefined behavior detector. Modifies the program at compile-time
->   to catch various kinds of undefined behavior during program execution, for
->   example: using misaligned or null pointers, signed integer overflows, or
->   conversion to, from, or between floating-point types which would overflow
->   the destination.
-
-- [Valgrind](http://valgrind.org)
-
->   An instrumentation framework for building dynamic analysis tools. Includes
->   tools that can automatically detect many memory management and threading
->   bugs, and profile code in detail.
 
 ### Debuging
 
@@ -750,15 +574,107 @@ frustrationless programming in lower-level languages.
 
 - [rr](http://rr-project.org)
 
-## Libraries
+## Languages
 
-What good is a programming language without the proper libraries to get anything
-done?
+Which programming languages do I find cool? Which programming languages do I
+find useful? Which programming languages would I recommend to a friend to learn?
 
-### C Libraries
+### Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
 
-Which libraries do I think are essential to a pain-free C programming
-experience?
+> Ruby is a language of careful balance. Its creator, Yukihiro “Matz”
+> Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel,
+> Ada, and Lisp) to form a new language that balanced functional programming
+> with imperative programming.
+>
+> He has often said that he is “trying to make Ruby natural, not simple,” in a
+> way that mirrors life.  Building on this, he adds: Ruby is simple in
+> appearance, but is very complex inside, just like our human body.
+
+By far my favourite language. The syntax is very expressive, the standard
+library is really good and the package manager,
+[RubyGems](https://rubygems.org) is fantastic.
+
+It is very easy to install packages, called *gems* in Ruby teminology:
+
+    $ gem install bcrypt
+
+And in addition to that, Ruby itself is very nice to use. 
+
+```ruby
+5.times do
+  puts ["Hello", "world!"].join(' ')
+end
+```
+
+#### Tools
+
+##### Rubocop: [`github.com/bbatsov/rubocop`](https://github.com/bbatsov/rubocop)
+
+> A Ruby static code analyzer, based on the community Ruby style guide. Some
+> of the violations it finds it can, if you want it to, fix itself.
+
+### Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
+
+> Crystal is a programming language with the following goals:
+> - Have a syntax similar to Ruby (but compatibility with it is not a goal)
+> - Statically type-checked but without having to specify the type of variables
+>   or method arguments.
+> - Be able to call C code by writing bindings to it in Crystal.
+> - Have compile-time evaluation and generation of code, to avoid boilerplate
+>   code.
+> - Compile to efficient native code.
+
+Basically, Crystal is like an improved (in terms of performance) version of
+Ruby. It is statically typed — but thanks to type inference, you don't have
+to specify types. There are some other differences, since it is a compiled
+language it's not possible to evaluate code at runtime, but in exchange
+the speed is on-par with C.
+
+The [shards](https://crystalshards.xyz) package manager is very useful
+because it is decentralized and allows to install dependencies from any
+git repository.
+
+```crystal
+# A very basic HTTP server
+require "http/server"
+
+server = HTTP::Server.new(8080) do |context|
+  context.response.content_type = "text/plain"
+  context.response.print "Hello world, got #{context.request.path}!"
+end
+
+puts "Listening on http://127.0.0.1:8080"
+server.listen
+```
+
+### C
+
+> C (/siː/, as in the letter c) is a general-purpose, imperative computer
+> programming language, supporting structured programming, lexical variable
+> scope and recursion, while a static type system prevents many unintended
+> operations. By design, C provides constructs that map efficiently to typical
+> machine instructions, and therefore it has found lasting use in applications
+> that had formerly been coded in assembly language, including operating
+> systems, as well as various application software for computers ranging from
+> supercomputers to embedded systems. *Source:
+> [`wikipedia.org`](https://en.wikipedia.org/wiki/C_(programming_language))*
+
+C is a little bit of an oddball: It doesn't really have a website that I
+could link to. But I guess that's okay, I mean basically everyone knows it.
+
+What is awesome about it, you ask? The fact that it is still alive. It might
+not be the nicest of all languages. In fact, when categorizing it, it is
+easiest to list the things that it doesn't have. Without a package manager,
+building code is usually done with an embarassingly fragile set of scripts that
+are prone to failure when run on an unfamiliar platform. Without namespacing,
+most libraries prefix all functions and macros with the name of the library.
+Without memory safety, we need all kinds of tools, sanitizers, fuzzers and
+checkers to test if programs leak and behave, and even with these tools bugs
+and security issues are common. But despite all of that, C is still the most
+important language. Not because it is pretty, but because it is one of the most
+basic building blocks, with most languages implemented in C. Knowing C is
+paramount when trying to understand other languages by digging into their
+source code.
 
 #### Snow: [`github.com/mortie/snow`](https://github.com/mortie/snow)
 
@@ -815,17 +731,84 @@ snow_main();
 
 >   Regex library, default library used by Ruby 2.0 and later.
 
-### C++ Libraries
+- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+
+>   A fast memory error detector, that can find out-of-bounds accesses, 
+>   use-after-free, double-free, invalid free, memory leaks.
+
+- [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
+
+>   A run-time memory leak detector.
+
+- [MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
+
+>   A detector of uninitialized reads.
+
+- [UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+
+>   A fast undefined behavior detector. Modifies the program at compile-time
+>   to catch various kinds of undefined behavior during program execution, for
+>   example: using misaligned or null pointers, signed integer overflows, or
+>   conversion to, from, or between floating-point types which would overflow
+>   the destination.
+
+- [Valgrind](http://valgrind.org)
+
+>   An instrumentation framework for building dynamic analysis tools. Includes
+>   tools that can automatically detect many memory management and threading
+>   bugs, and profile code in detail.
+
+
+### Rust: [`rust-lang.org`](https://rust-lang.org)
+
+> Rust is a systems programming language that runs blazingly fast, prevents
+> segfaults, and guarantees thread safety.
+>
+> Featuring: zero-cost abstractions, move semantics, guaranteed memory safety,
+> threads without data races, trait-based generics, pattern matching, type
+> inference, minimal runtime, efficient C bindings, 
+
+We all have a joke or two about a hipster programmer wildly fighting the
+Rust borrow checker. It's a beautiful language, with a very intimidating
+promise and the potential to rival C. It does have a sweet syntax, taking
+in many inspirations from other languages.
+
+### Python: [`python.org`](https://python.org)
+
+### Chicken Scheme: [`call-cc.org`](http://call-cc.org)
+
+### OCaml: [ocaml](https://github.com/ocaml/ocaml)
+
+### Node.js: [nodejs](https://github.com/nodejs/node)
+
+### Java9: [java9](https://www.oracle.com/java/java9.html)
+
+### Haskell: [haskell](https://www.haskell.org)
+
+### RISC5: [risc5asm](https://rv8.io)
+
+### C++: [cpp](http://clang.org)
+
+#### clang-tidy: [`clang.llvm.org/extra/clang-tidy`](http://clang.llvm.org/extra/clang-tidy/)
+
+>   A clang-based C++ “linter” tool. Its purpose is to provide an extensible
+>   framework for diagnosing and fixing typical programming errors, like style
+>   violations, interface misuse, or bugs that can be deduced via static
+>   analysis.
+
 
 #### Catch2: [`github.com/catchorg/Catch2`](https://github.com/catchorg/Catch2)
 
 >   Simple unit testing framework for C++
 
-## Reading
 
-### Books
+### Swift: [swift](https://github.com/apple/swift)
 
-### Papers
+### Nim: [nim](https://nim-lang.org)
+
+### LuaJIT: [luajit](https://luajit.org/luajit.html)
+
+### D: [`dlang.org`](https://dlang.org/)
 
 ## Further
 

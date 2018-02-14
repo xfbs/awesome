@@ -63,7 +63,7 @@ best way to s
 
 #### PoC||GTFO: [`alchemistowl.org/pocorgtfo`](https://www.alchemistowl.org/pocorgtfo/)
 
-> The international journal of *Proof of Concept or Get The Fuck Out*.
+The international journal of *Proof of Concept or Get The Fuck Out*.
 
 Contains a healthy mixture of humorous and very in-depth technical articles of
 how to hack, with a focus on retro hardware and mind-boggling file format
@@ -78,7 +78,7 @@ and related topics.
 
 #### Lobsters: [`lobste.rs`](https://lobste.rs/), ★★★★★
 
-> Technology-focused community centered around link aggregation and discussion.
+Technology-focused community centered around link aggregation and discussion.
 
 All links are user-submitted. Small friendly community. Invite-only and ad free.
 
@@ -86,7 +86,7 @@ All links are user-submitted. Small friendly community. Invite-only and ad free.
 
 #### Hacker News: [`news.ycombinator.com`](https://news.ycombinator.com/), ★★★★☆
 
-> Social news website focusing on computer science and entrepreneurship.
+Social news website focusing on computer science and entrepreneurship.
 
 Run by startup fund Y Combinator. User-submitten link aggregator, bigger community,
 less personal but also ad-free.
@@ -95,7 +95,7 @@ less personal but also ad-free.
 
 #### The Register: [`theregister.co.uk`](http://www.theregister.co.uk/), ★★★★☆
 
-> Independent news and views for the tech community.
+Independent news and views for the tech community.
 
 Based in London, UK. Does some really good dry humor, as you would expect.
 
@@ -109,7 +109,7 @@ News, guides, reviews, and features.
 
 #### Hubski: [`hubski.com`](http://hubski.com), ★★★★☆
 
-> A community for sharing thoughtful information and conversation.
+A community for sharing thoughtful information and conversation.
 
 Similar to [Lobsters](#lobsters), but focussed on science in general.
 
@@ -117,7 +117,6 @@ Similar to [Lobsters](#lobsters), but focussed on science in general.
 
 #### The Verge: [`theverge.com`](https://www.theverge.com), ★★★☆☆
 
-<!-- TODO: description -->
 Generic tech news.
 
 ![The Verge screenshot](img/theverge.png)
@@ -128,22 +127,22 @@ A few technology/culture centric blogs woth checking out.
 
 #### /dev/lawyer: [`writing.kemitchell.com`](https://writing.kemitchell.com)
 
-> *Law, technology, and the space between*.
+*Law, technology, and the space between*.
 
 ![/dev/lawyer screenshot](img/devlawyer.png)
 
 #### Julia Evans: [`jvns.ca`](https://jvns.ca)
 
-> Regular writings involving Rust, Ruby and how to take things like syscalls
-> apart.
+Regular writings involving Rust, Ruby and how to take things like syscalls
+apart.
 
 ![Julia Evans screenshot](img/jvns.png)
 
 #### Eli Bendersky's Website: [`eli.thegreenplace.net`](https://eli.thegreenplace.net/)
 
-> This blog began in 2003 as a personal online journal; in the past
-> few years it became mostly an outlet for technical, programming-related posts.
-> It's my way to document things I find interesting for my future self.
+This blog began in 2003 as a personal online journal; in the past
+few years it became mostly an outlet for technical, programming-related posts.
+It's my way to document things I find interesting for my future self.
 
 Blog about programming in a variety of languages, including Python, C, C++.
 
@@ -153,13 +152,13 @@ Blog about programming in a variety of languages, including Python, C, C++.
 
 #### devttys0: [YouTube Channel](https://www.youtube.com/channel/UCuEqgu-PN4B2Jm_B5tccPCA), ★★★★★
 
-> Adventures in learning and designing analog electronics!
+Adventures in learning and designing analog electronics!
 
 ![devttys0 screenshot](img/devttys0.png)
 
 #### Micah Elizabeth Scott: [YouTube Channel](https://www.youtube.com/channel/UCaEgw3321ct_PE4PJvdhXEQ), ★★★★★
 
-> Art, engineering, reverse engineering, and cats!
+Art, engineering, reverse engineering, and cats!
 
 The awesome fusion of programming and electronics.
 
@@ -167,7 +166,7 @@ The awesome fusion of programming and electronics.
 
 #### Xiph Videos [`xiph.org/video`](https://www.xiph.org/video/), ★★★★★
 
-> *[Mini-] series of self-produced videos to spread techie-level knowledge about digital media*.
+*[Mini-] series of self-produced videos to spread techie-level knowledge about digital media*.
 
 This two-part series, consisting of *A Digital Media Primer for Geeks* and
 *Digital Show & Tell*, you can learn about the interface between analog and digital:
@@ -225,9 +224,9 @@ expected of a computer scientist to know of each of the parts.
 
 #### [Programming Language Theory](http://steshaw.org/plt/)
 
-> Finding a path to enlightenment in Programming Language Theory can
-> be a tough one, particularly for programming practitioners who didn’t
-> learn it at school. This resource is here to help. 
+Finding a path to enlightenment in Programming Language Theory can
+be a tough one, particularly for programming practitioners who didn’t
+learn it at school. This resource is here to help. 
 
 Provides a listing of resources to help deepen one's understanding
 of PLT. 
@@ -236,7 +235,7 @@ of PLT.
 
 #### [Seeing Theory](http://students.brown.edu/seeing-theory/)
 
-> A visual introduction to probability and statistics.
+A visual introduction to probability and statistics.
 
 Want to refresh your knowledge of probability and statistics, but
 prefer not to wade through dry textbooks? Then this page is for you.
@@ -245,11 +244,11 @@ prefer not to wade through dry textbooks? Then this page is for you.
 
 #### Crypto 101: [`crypto101.io`](https://www.crypto101.io)
 
-> An introductory course on cryptography, freely available for programmers of
-> all ages and skill levels. Started as a presentation at PyCon 2013. It tries
-> to go through all of the major dramatis personae of cryptography to make TLS
-> work in 45 minutes. This book is the natural extension of that, with an
-> extensive focus on breaking cryptography.
+An introductory course on cryptography, freely available for programmers of
+all ages and skill levels. Started as a presentation at PyCon 2013. It tries
+to go through all of the major dramatis personae of cryptography to make TLS
+work in 45 minutes. This book is the natural extension of that, with an
+extensive focus on breaking cryptography.
 
 ![Crypto 101 screenshot](img/crypto101.png)
 
@@ -266,10 +265,10 @@ challenges. Choose from math, crypto or coding-themed puzzles.
 
 #### Project Euler: [`projecteuler.net`](https://projecteuler.net/), ★★★★★
 
-> A series of challenging mathematical/computer programming problems
-> that will require more than just mathematical insights to solve.
-> Provides a platform for the inquiring mind to delve into unfamiliar
-> areas and learn new concepts in a fun and recreational context.
+A series of challenging mathematical/computer programming problems
+that will require more than just mathematical insights to solve.
+Provides a platform for the inquiring mind to delve into unfamiliar
+areas and learn new concepts in a fun and recreational context.
 
 Great place for beginners and more advanced people alike, whether
 you are interested in learning or improving your programming skills
@@ -281,13 +280,13 @@ or in mathematics.
 
 #### matasano: [`cryptopals.com`](http://cryptopals.com), ★★★★★
 
-> A different way to learn about crypto than taking a class
-> or reading a book. We give you problems to solve. They're derived
-> from weaknesses in real-world systems and modern cryptographic
-> constructions. We give you enough info to learn about the underlying
-> crypto concepts yourself. When you're finished, you'll not only have
-> learned a good deal about how cryptosystems are built, but you'll also
-> understand how they're attacked.
+A different way to learn about crypto than taking a class
+or reading a book. We give you problems to solve. They're derived
+from weaknesses in real-world systems and modern cryptographic
+constructions. We give you enough info to learn about the underlying
+crypto concepts yourself. When you're finished, you'll not only have
+learned a good deal about how cryptosystems are built, but you'll also
+understand how they're attacked.
 
 Great place for some hands-on experience with cryptography, the
 challenges aren't too difficult but they provide a good understanding
@@ -297,11 +296,11 @@ of the theory behind some of the crypto we use.
 
 #### id0-rsa: [`id0-rsa.pub`](https://id0-rsa.pub),
 
-> Some problems related to computer security (specifically poorly
-> implemented security). You are free to use any language
-> and environment you like to complete them. The problems require
-> familiarity with programming, but not necessarily with applied
-> cryptography or computer security in general.
+Some problems related to computer security (specifically poorly
+implemented security). You are free to use any language
+and environment you like to complete them. The problems require
+familiarity with programming, but not necessarily with applied
+cryptography or computer security in general.
 
 ![id0-rsa screenshot](img/id0_rsa.png)
 
@@ -309,10 +308,10 @@ of the theory behind some of the crypto we use.
 
 #### CS:APP3e Lab Assignments: [`csapp.cs.cmu.edu/3e/labs.html`](http://csapp.cs.cmu.edu/3e/labs.html)
 
-> This book (CS:APP3e) is the third edition of a book that stems from the
-> introductory computer systems course we developed at Carnegie Mellon
-> University, starting in the Fall of 1998, called "Introduction to Computer
-> Systems" (ICS)
+This book (CS:APP3e) is the third edition of a book that stems from the
+introductory computer systems course we developed at Carnegie Mellon
+University, starting in the Fall of 1998, called "Introduction to Computer
+Systems" (ICS)
 
 Assignments involving low-level programming, some of them are quite interesting.
 
@@ -320,13 +319,13 @@ Assignments involving low-level programming, some of them are quite interesting.
 
 #### CodeChef: [`codechef.com`](https://www.codechef.com)
 
-> CodeChef was created as a platform to help programmers make it big in the
-> world of algorithms, computer programming and programming contests. We host
-> three featured contests every month and give away prizes and goodies to the
-> winners as encouragement. Apart from this, the platform is open to the entire
-> programming community to host their own contests. Major institutions and
-> organizations across the globe use our platform to host their contests. On an
-> average, 30+ external contests are hosted on our platform every month.
+CodeChef was created as a platform to help programmers make it big in the
+world of algorithms, computer programming and programming contests. We host
+three featured contests every month and give away prizes and goodies to the
+winners as encouragement. Apart from this, the platform is open to the entire
+programming community to host their own contests. Major institutions and
+organizations across the globe use our platform to host their contests. On an
+average, 30+ external contests are hosted on our platform every month.
 
 ## Wargames
 
@@ -335,8 +334,8 @@ environments where you can break security. It's like a sandbox for hackers.
 
 #### Over the Wire: [`overthewire.org/wargames`](https://overthewire.org/wargames/)
 
-> The wargames offered by the OverTheWire community can help you to learn and
-> practice security concepts in the form of fun-filled games.
+The wargames offered by the OverTheWire community can help you to learn and
+practice security concepts in the form of fun-filled games.
 
 Provides a list of online (hosted) wargames, along with informations on
 how to access it (SSH access).
@@ -356,18 +355,18 @@ means to get hired instead of out of the pure pleasure of solving a
 
 #### HackerRank: [`hackerrank.com`](https://www.hackerrank.com)
 
-> The HackerRank team is on a mission to match every developer in the world to
-> the right job by providing a technical recruiting platform that assesses
-> developers based on actual coding skills. Our solution is revolutionizing the
-> way companies discover and evaluate talented developers. HackerRank is the
-> destination for the best developers to hone their skills and for companies to
-> find top software developers.
+The HackerRank team is on a mission to match every developer in the world to
+the right job by providing a technical recruiting platform that assesses
+developers based on actual coding skills. Our solution is revolutionizing the
+way companies discover and evaluate talented developers. HackerRank is the
+destination for the best developers to hone their skills and for companies to
+find top software developers.
 
 #### LeetCode: [`leetcode.com`](https://leetcode.com)
 
-> Over 750 questions for you to practice. Come and join one of the largest tech
-> communities with hundreds of thousands of active users and participate in our
-> contests to challenge yourself and earn rewards.
+Over 750 questions for you to practice. Come and join one of the largest tech
+communities with hundreds of thousands of active users and participate in our
+contests to challenge yourself and earn rewards.
 
 ## Fun
 
@@ -377,20 +376,18 @@ your code running, live.
 
 #### RubyWarrior: [`bloc.io/ruby-warrior`](https://www.bloc.io/ruby-warrior)
 
-> A TRIUMPHANT QUEST OF ADVENTURE, LOVE & DESTINY 
-> ALL WITHIN A FEW LINES OF CODE
-
 You take control over a warrior, by writing a minimalist A.I. to control
-him on his quest.
+him on his quest. Cute retro pixel art and Ruby make this a pleasant and
+addicting game at the same time.
 
 ![RubyWarrior screenshot](img/ruby_warrior.png)
 
 #### Screeps: [`screeps.com`](https://screeps.com)
 
-> Screeps means “scripting creeps.” It’s an open-source sandbox MMO RTS game
-> for programmers, wherein the core mechanic is programming your units’ AI. You
-> control your colony by writing JavaScript which operate 24/7 in the single
-> persistent real-time world filled by other players on par with you.
+Screeps means “scripting creeps.” It’s an open-source sandbox MMO RTS game
+for programmers, wherein the core mechanic is programming your units’ AI. You
+control your colony by writing JavaScript which operate 24/7 in the single
+persistent real-time world filled by other players on par with you.
 
 ![Screeps screenshot](img/screeps.png)
 
@@ -401,11 +398,11 @@ more? These resources might help.
 
 #### Competetive Programmer's Handbook: [`cses.fi/book.html`](https://cses.fi/book.html)
 
-> The purpose of this book is to give the reader a thorough introduction to
-> competitive programming. The book is especially intended for students who
-> want to learn algorithms and possibly participate in the International
-> Olympiad in Informatics (IOI) or in the International Collegiate Programming
-> Contest (ICPC).
+The purpose of this book is to give the reader a thorough introduction to
+competitive programming. The book is especially intended for students who
+want to learn algorithms and possibly participate in the International
+Olympiad in Informatics (IOI) or in the International Collegiate Programming
+Contest (ICPC).
 
 ![Competetive Programmer's Handbook screenshot](img/comp_prog_hand.png)
 
@@ -420,8 +417,8 @@ design.
 
 #### Unsplash: [`unsplash.com`](https://unsplash.com), ★★★★★
 
-> Over 300,000 free (do whatever you want) high-resolution photos brought
-> to you by the world’s most generous community of photographers.
+Over 300,000 free (do whatever you want) high-resolution photos brought
+to you by the world’s most generous community of photographers.
 
 Need a new wallpaper? A backgroup photo for a website design? Stock photos
 to fill in some blanks?
@@ -432,9 +429,9 @@ to fill in some blanks?
 
 #### nerd-fonts: [`github.com/ryanoasis/nerd-fonts`](https://github.com/ryanoasis/nerd-fonts)
 
-> Project that patches developer targeted fonts with a high number of glyphs
-> (icons). Specifically to add a high number of extra glyphs from popular 'iconic
-> fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶, and others.
+Project that patches developer targeted fonts with a high number of glyphs
+(icons). Specifically to add a high number of extra glyphs from popular 'iconic
+fonts' such as Font Awesome ➶, Devicons ➶, Octicons ➶, and others.
 
 These are particularily well-suited for use as console fonts, being a
 lovechild of traditional monospaced programming fonts and iconic fonts
@@ -444,9 +441,9 @@ glyphs to aesthetically spice up your `vim`.
 
 #### Input: [`input.fontbureau.com`](http://input.fontbureau.com)
 
-> Flexible system of fonts designed specifically for code by David Jonathan
-> Ross. It offers both monospaced and proportional fonts, all with a large
-> range of widths, weights, and styles for richer code formatting.
+Flexible system of fonts designed specifically for code by David Jonathan
+Ross. It offers both monospaced and proportional fonts, all with a large
+range of widths, weights, and styles for richer code formatting.
 
 A particularly beautiful set of monospace fonts for programming.
 
@@ -469,10 +466,10 @@ just better at.
 
 #### Dash: [`kapeli.com/dash`](https://kapeli.com/dash)
 
-> An API Documentation Browser and Code Snippet Manager. Dash stores snippets
-> of code and instantly searches offline documentation sets for 200+ APIs, 
-> 100+ cheat sheets and more. You can even generate your own docsets or request
-> docsets to be included.
+An API Documentation Browser and Code Snippet Manager. Dash stores snippets
+of code and instantly searches offline documentation sets for 200+ APIs, 
+100+ cheat sheets and more. You can even generate your own docsets or request
+docsets to be included.
 
 I literally don't know what I would do without Dash. If you need to find out
 the name of a method of a function in a given programming language, if you
@@ -486,15 +483,15 @@ and whatever else you need) and you alwasy have it with you.
 
 #### Textual: [`codeux.com/textual`](https://www.codeux.com/textual/)
 
-> The world's most popular application for interacting with Internet Relay Chat
-> (IRC) chatrooms on macOS.  Includes two elegantly designed dark and light
-> variants of the user interface which have been refined all the way down to
-> the very last pixel.  Supports very powerful modern technologies such as
-> native IPv6, the latest IRCv3 specifications, client-side certificate
-> authentication, and much, much more in a easy to navigate, clutter free
-> environment.  Protects your privacy by leveraging widely accepted, proven
-> technologies such as Off-the-Record Messaging (OTR) to ensure that the only
-> people reading your conversations are those that you intend to.
+The world's most popular application for interacting with Internet Relay Chat
+(IRC) chatrooms on macOS.  Includes two elegantly designed dark and light
+variants of the user interface which have been refined all the way down to
+the very last pixel.  Supports very powerful modern technologies such as
+native IPv6, the latest IRCv3 specifications, client-side certificate
+authentication, and much, much more in a easy to navigate, clutter free
+environment.  Protects your privacy by leveraging widely accepted, proven
+technologies such as Off-the-Record Messaging (OTR) to ensure that the only
+people reading your conversations are those that you intend to.
 
 My favourite (and only) GUI IRC client on macOS. It's really beautiful, it just
 works, it's not overloaded. Also, it's open source — on the website you won't
@@ -505,9 +502,6 @@ build it from source (if you know what you're doing).
 ![Textual 5 screenshot](img/textual.png)
 
 #### GitUp: [`gitup.co`](http://gitup.co)
-
-> Work quickly, safely, and without headaches.  The Git interface you've been
-> missing all your life has finally arrived.
 
 Normally, the `git` command-line tool is just what you need. It's more
 efficient to use while you're in the terminal anyways, you don't want to
@@ -630,14 +624,14 @@ find useful? Which programming languages would I recommend to a friend to learn?
 
 ## Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
 
-> Ruby is a language of careful balance. Its creator, Yukihiro “Matz”
-> Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel,
-> Ada, and Lisp) to form a new language that balanced functional programming
-> with imperative programming.
->
-> He has often said that he is “trying to make Ruby natural, not simple,” in a
-> way that mirrors life.  Building on this, he adds: Ruby is simple in
-> appearance, but is very complex inside, just like our human body.
+Ruby is a language of careful balance. Its creator, Yukihiro “Matz”
+Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel,
+Ada, and Lisp) to form a new language that balanced functional programming
+with imperative programming.
+
+He has often said that he is “trying to make Ruby natural, not simple,” in a
+way that mirrors life.  Building on this, he adds: Ruby is simple in
+appearance, but is very complex inside, just like our human body.
 
 By far my favourite language. The syntax is very expressive, the standard
 library is really good and the package manager,
@@ -761,15 +755,15 @@ server.listen
 
 ## C
 
-> C (/siː/, as in the letter c) is a general-purpose, imperative computer
-> programming language, supporting structured programming, lexical variable
-> scope and recursion, while a static type system prevents many unintended
-> operations. By design, C provides constructs that map efficiently to typical
-> machine instructions, and therefore it has found lasting use in applications
-> that had formerly been coded in assembly language, including operating
-> systems, as well as various application software for computers ranging from
-> supercomputers to embedded systems. *Source:
-> [`wikipedia.org`](https://en.wikipedia.org/wiki/C_(programming_language))*
+C (/siː/, as in the letter c) is a general-purpose, imperative computer
+programming language, supporting structured programming, lexical variable
+scope and recursion, while a static type system prevents many unintended
+operations. By design, C provides constructs that map efficiently to typical
+machine instructions, and therefore it has found lasting use in applications
+that had formerly been coded in assembly language, including operating
+systems, as well as various application software for computers ranging from
+supercomputers to embedded systems. *Source:
+[`wikipedia.org`](https://en.wikipedia.org/wiki/C_(programming_language))*
 
 C is a little bit of an oddball: It doesn't really have a website that I
 could link to. But I guess that's okay, I mean basically everyone knows it.

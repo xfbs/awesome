@@ -34,40 +34,41 @@ As François put it:
 These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
 
-##### Lobsters: [`lobste.rs`](https://lobste.rs/), ★★★★★
+#### Lobsters: [`lobste.rs`](https://lobste.rs/), ★★★★★
 
-> *A technology-focused community centered around link aggregation and discussion*.
-> All links are user-submitted, small friendly community, invite-only and ad free.
+*A technology-focused community centered around link aggregation and discussion*.
+All links are user-submitted, small friendly community, invite-only and ad free.
 
-- [Lobsters](https://lobste.rs/), ★★★★★
+#### Hacker News: [`news.ycombinator.com`](https://news.ycombinator.com/), ★★★★☆
 
-> *A social news website focusing on computer science and entrepreneurship*. Run by
-> startup fund Y Combinator. User-submitten link aggregator, bigger community,
-> less personal but also ad-free.
+*A social news website focusing on computer science and entrepreneurship*. Run by
+startup fund Y Combinator. User-submitten link aggregator, bigger community,
+less personal but also ad-free.
 
-- [Hacker News](https://news.ycombinator.com), ★★★★☆
+#### The Register: [`theregister.co.uk`](http://www.theregister.co.uk/), ★★★★☆
 
-> *Independent news and views for the tech community*. Based in London, UK.
-> Does some really good dry humor, as you would expect.
+*Independent news and views for the tech community*. Based in London, UK.
+Does some really good dry humor, as you would expect.
 
-- [The Register](http://www.theregister.co.uk), ★★★★☆
+#### Ars Technica: [`arstechnica.com`](https://arstechnica.com/), ★★★★☆
 
-> News, guides, reviews, and features.
+<!-- TODO: description -->
+News, guides, reviews, and features.
 
-- [Ars Technica](https://arstechnica.com/), ★★★★☆
+#### Hubski: [`hubski.com`](http://hubski.com), ★★★★☆
 
-> *A community for sharing thoughtful information and conversation*. 
-> Similar to [lobste.rs](https://lobste.rs/), but focussed on science in general.
+*A community for sharing thoughtful information and conversation*. 
+Similar to [Lobsters](#lobsters), but focussed on science in general.
 
-- [Hubski](http://hubski.com), ★★★★☆
+#### The Verge: [`theverge.com`](https://www.theverge.com), ★★★☆☆
 
-> Generic tech news
+<!-- TODO: description -->
+Generic tech news.
 
-- [The Verge](https://www.theverge.com), ★★★☆☆
+#### Recode: [`recode.net`](https://www.recode.net), ★★★☆☆
 
-> News from silicon valley
-
-- [Recode](https://www.recode.net), ★★★☆☆
+<!-- TODO: description -->
+News from silicon valley.
 
 ## Blogs
 

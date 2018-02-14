@@ -2,7 +2,11 @@
 
 My own curated (meaning subjective) list of awesome things (relating to
 computer science). I have (tried to) include examples and screenshots of
-everything. [Unlicensed](license.md) for maximum fork enjoyment. 
+everything. [Unlicensed](license.md) for maximum fork enjoyment. Note that
+this license only applies to anything I have written — the screenshots
+might contain material owned by the respective websites and I have copied
+some of the explanations verbatim (this is, after all, still a work in
+progress!)
 
 *Please send in
 pull requests if I missed anything obvious!*
@@ -59,15 +63,20 @@ than to have them rot in my previous convoluted folder hierachies.
 
 Semi-regular publications. As the publication frequency is much lower than
 news websites, these can go into much more detail and are thus probably the
-best way to s
+best way learn about recent advances.
 
 #### PoC||GTFO: [`alchemistowl.org/pocorgtfo`](https://www.alchemistowl.org/pocorgtfo/)
 
-The international journal of *Proof of Concept or Get The Fuck Out*.
-
-Contains a healthy mixture of humorous and very in-depth technical articles of
-how to hack, with a focus on retro hardware and mind-boggling file format
-hackery.
+The international journal of *Proof of Concept or Get The Fuck Out*. For every
+release, hackers from all around the world gather together to share what they
+have accomplished in what is without doubt the most natural form: the *proof of
+concept*. They don't just share the, occasionally somewhat exaggerated, story:
+all of the code you need to reproduce it at home is included as well! Many of
+the hacks in this journal involve retro hardware, and mind-boggling file format
+hackery.  The only thing that is asked of you, the reader, is to print and
+redistribute this document so that is can reach as many peopler as possible.
+Instructions on how to print it and how to price it (spoiler: it's free!) is
+included in every issue.
 
 ![PoC||GTFO screenshot](img/pocorgtfo.png)
 
@@ -179,19 +188,19 @@ the audible spectrum to capture analog signals accurately?
 
 #### CCC Media: [`media.ccc.de`](https://media.ccc.de), ★★★★★
 
-> Offers a wide variety of video and audio material distributed by the Chaos
-> Computer Club provided in native formats (usually MPEG and/or Vorbis families)
-> for online viewing. Older, archived recordings might require proprietary
-> players. The media files on this site can also be downloaded for offline consumption.
-
-Streams recordings (of talks) from events by the CCC, Europe's largest association
-of hackers. Has a lot of high-quality content.
+Offers a wide variety of video and audio material distributed by the Chaos
+Computer Club, Europe's largest association of hackers,  provided in native
+formats (usually MPEG and/or Vorbis families) for online viewing. Older,
+archived recordings might require proprietary players. The media files on this
+site can also be downloaded for offline consumption.  Some of the talks here
+are in German — but most are available in English for your discretionary
+consumption.
 
 ![CCC media screenshot](img/ccc_media.png)
 
 # Resources
 
-You want to learn something? You've come to the right place.
+You want to learn something?
 
 ## Web
 
@@ -199,12 +208,14 @@ Resources from around the web.
 
 #### Math ∩ Programming: [`jeremykun.com`](https://jeremykun.com)
 
-Has two sections, which are of equally high quality: the 
+Has two sections, which are of equally high quality: the
 [Primers](https://jeremykun.com/primers/), which are a terse explanation of
-mathematical concepts that are used or useful in computer science.
-Is there a topic in mathematics that you don't quite understand or you
-want to refresh, but you don't want to read an 800-page mathematics
-textbook? Then this section is for you. 
+mathematical concepts that are used or useful in computer science.  Is there a
+topic in mathematics that you don't quite understand or you want to refresh,
+but you don't want to read an 800-page mathematics textbook? Then this section
+is for you. 
+
+![Primers screenshot](img/jeremykun_primers.png)
 
 The other section is the [Main Content](https://jeremykun.com/main-content/),
 which assumes that you are familiar with all the topics mentioned in the
@@ -212,41 +223,36 @@ which assumes that you are familiar with all the topics mentioned in the
 
 ![Main Content screenshot](img/jeremykun_main.png)
 
-![Primers screenshot](img/jeremykun_primers.png)
-
 #### [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
 
-Has a very nice overview of the field of computer science, along
-with very helpful literature for most parts of it, and what is
-expected of a computer scientist to know of each of the parts.
+Has a very nice overview of the field of computer science, along with very
+helpful literature for most parts of it, and what is expected of a computer
+scientist to know of each of the parts.
 
 ![What every computer science majoy should know screenshot](img/should_know.png)
 
 #### [Programming Language Theory](http://steshaw.org/plt/)
 
-Finding a path to enlightenment in Programming Language Theory can
-be a tough one, particularly for programming practitioners who didn’t
-learn it at school. This resource is here to help. 
-
-Provides a listing of resources to help deepen one's understanding
-of PLT. 
+Finding a path to enlightenment in Programming Language Theory can be a tough
+one, particularly for programming practitioners who didn’t learn it at school.
+This resource is here to help.  Provides a listing of resources to help deepen
+one's understanding of PLT. 
 
 ![Steshaw PLT screenshot](img/steshaw_plt.png)
 
 #### [Seeing Theory](http://students.brown.edu/seeing-theory/)
 
-A visual introduction to probability and statistics.
-
-Want to refresh your knowledge of probability and statistics, but
-prefer not to wade through dry textbooks? Then this page is for you.
+A visual introduction to probability and statistics.  Want to refresh your
+knowledge of probability and statistics, but prefer not to wade through dry
+textbooks? Then this page is for you.
 
 ![Seeing Theory screenshot](img/seeing_theory.png)
 
 #### Crypto 101: [`crypto101.io`](https://www.crypto101.io)
 
-An introductory course on cryptography, freely available for programmers of
-all ages and skill levels. Started as a presentation at PyCon 2013. It tries
-to go through all of the major dramatis personae of cryptography to make TLS
+An introductory course on cryptography, freely available for programmers of all
+ages and skill levels. Started as a presentation at PyCon 2013, which tried to
+go through all of the major *dramatis personae* of cryptography to make TLS
 work in 45 minutes. This book is the natural extension of that, with an
 extensive focus on breaking cryptography.
 
@@ -309,7 +315,7 @@ cryptography or computer security in general.
 #### CS:APP3e Lab Assignments: [`csapp.cs.cmu.edu/3e/labs.html`](http://csapp.cs.cmu.edu/3e/labs.html)
 
 This book (CS:APP3e) is the third edition of a book that stems from the
-introductory computer systems course we developed at Carnegie Mellon
+introductory computer systems course developed at Carnegie Mellon
 University, starting in the Fall of 1998, called "Introduction to Computer
 Systems" (ICS)
 

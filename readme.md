@@ -86,28 +86,22 @@ These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
 
 ### [Lobste.rs](https://lobste.rs/)
-
 ![Lobsters screenshot](img/lobsters.png)
 
 Technology-focused community centered around link aggregation and discussion.
-
 All links are user-submitted. Small friendly community. Invite-only and ad free.
 
 ### [Hacker News](https://news.ycombinator.com/)
-
 ![Hacker News screenshot](img/hacker_news.png)
 
 Social news website focusing on computer science and entrepreneurship.
-
 Run by startup fund Y Combinator. User-submitten link aggregator, bigger community,
 less personal but also ad-free.
 
 ### [The Register](http://www.theregister.co.uk/)
-
 ![The Register screenshot](img/theregister.png)
 
 Independent news and views for the tech community.
-
 Based in London, UK. Does some really good dry humor, as you would expect.
 
 ### [Ars Technica](https://arstechnica.com/)
@@ -119,33 +113,30 @@ News, guides, reviews, and features.
 ![Hubski screenshot](img/hubski.png)
 
 A community for sharing thoughtful information and conversation.
-
 Similar to [Lobsters](#lobsters), but focussed on science in general.
 
 ### [The Verge](https://www.theverge.com)
+![The Verge screenshot](img/theverge.png)
 
 Generic tech news.
-
-![The Verge screenshot](img/theverge.png)
 
 ## Blogs
 
 A few technology/culture centric blogs woth checking out.
 
 ### [/dev/lawyer](https://writing.kemitchell.com)
+![/dev/lawyer screenshot](img/devlawyer.png)
 
 *Law, technology, and the space between*.
 
-![/dev/lawyer screenshot](img/devlawyer.png)
-
 ### [Julia Evans](https://jvns.ca)
+![Julia Evans screenshot](img/jvns.png)
 
 Regular writings involving Rust, Ruby and how to take things like syscalls
 apart.
 
-![Julia Evans screenshot](img/jvns.png)
-
 ### [Eli Bendersky's Website](https://eli.thegreenplace.net/)
+![Eli Bendersky's Website](img/eli_bendersky.png)
 
 This blog began in 2003 as a personal online journal; in the past
 few years it became mostly an outlet for technical, programming-related posts.
@@ -153,25 +144,21 @@ It's my way to document things I find interesting for my future self.
 
 Blog about programming in a variety of languages, including Python, C, C++.
 
-![Eli Bendersky's Website](img/eli_bendersky.png)
-
 ## Videos
 
 ### [devttys0](https://www.youtube.com/channel/UCuEqgu-PN4B2Jm_B5tccPCA)
+![devttys0 screenshot](img/devttys0.png)
 
 Adventures in learning and designing analog electronics!
 
-![devttys0 screenshot](img/devttys0.png)
-
 ### [Micah Elizabeth Scott](https://www.youtube.com/channel/UCaEgw3321ct_PE4PJvdhXEQ)
-
-Art, engineering, reverse engineering, and cats!
-
-The awesome fusion of programming and electronics.
-
 ![Micah Elizabeth Scott screenshot](img/micahelizabethscott.png)
 
+Art, engineering, reverse engineering, and cats!
+The awesome fusion of programming and electronics.
+
 ### [Xiph Videos](https://www.xiph.org/video/)
+![Xiph Video screenshot](img/xiph_video.png)
 
 This two-part series, consisting of *A Digital Media Primer for Geeks* and
 *Digital Show & Tell*, you can learn about the interface between analog and digital:
@@ -180,9 +167,8 @@ can we capture? What does the sampling frequency have to do with this? What is t
 Nyquist frequency? Why does it still make sense to use sampling rates much higher than
 the audible spectrum to capture analog signals accurately?
 
-![Xiph Video screenshot](img/xiph_video.png)
-
 ### [CCC Media](https://media.ccc.de)
+![CCC media screenshot](img/ccc_media.png)
 
 Offers a wide variety of video and audio material distributed by the Chaos
 Computer Club, Europe's largest association of hackers,  provided in native
@@ -192,8 +178,6 @@ site can also be downloaded for offline consumption.  Some of the talks here
 are in German — but most are available in English for your discretionary
 consumption.
 
-![CCC media screenshot](img/ccc_media.png)
-
 # Resources
 
 You want to learn something?
@@ -202,7 +186,8 @@ You want to learn something?
 
 Resources from around the web.
 
-#### Math ∩ Programming: [`jeremykun.com`](https://jeremykun.com)
+### [Math ∩ Programming](https://jeremykun.com)
+![Primers screenshot](img/jeremykun_primers.png)
 
 Has two sections, which are of equally high quality: the
 [Primers](https://jeremykun.com/primers/), which are a terse explanation of
@@ -211,48 +196,40 @@ topic in mathematics that you don't quite understand or you want to refresh,
 but you don't want to read an 800-page mathematics textbook? Then this section
 is for you. 
 
-![Primers screenshot](img/jeremykun_primers.png)
-
 The other section is the [Main Content](https://jeremykun.com/main-content/),
 which assumes that you are familiar with all the topics mentioned in the
 [Primers](https://jeremykun.com/primers/).
 
-![Main Content screenshot](img/jeremykun_main.png)
-
-#### [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+### [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
+![What every computer science majoy should know screenshot](img/should_know.png)
 
 Has a very nice overview of the field of computer science, along with very
 helpful literature for most parts of it, and what is expected of a computer
 scientist to know of each of the parts.
 
-![What every computer science majoy should know screenshot](img/should_know.png)
-
-#### [Programming Language Theory](http://steshaw.org/plt/)
+### [Programming Language Theory](http://steshaw.org/plt/)
+![Steshaw PLT screenshot](img/steshaw_plt.png)
 
 Finding a path to enlightenment in Programming Language Theory can be a tough
 one, particularly for programming practitioners who didn’t learn it at school.
 This resource is here to help.  Provides a listing of resources to help deepen
 one's understanding of PLT. 
 
-![Steshaw PLT screenshot](img/steshaw_plt.png)
-
-#### [Seeing Theory](http://students.brown.edu/seeing-theory/)
+### [Seeing Theory](http://students.brown.edu/seeing-theory/)
+![Seeing Theory screenshot](img/seeing_theory.png)
 
 A visual introduction to probability and statistics.  Want to refresh your
 knowledge of probability and statistics, but prefer not to wade through dry
 textbooks? Then this page is for you.
 
-![Seeing Theory screenshot](img/seeing_theory.png)
-
-#### Crypto 101: [`crypto101.io`](https://www.crypto101.io)
+### [Crypto 101](https://www.crypto101.io)
+![Crypto 101 screenshot](img/crypto101.png)
 
 An introductory course on cryptography, freely available for programmers of all
 ages and skill levels. Started as a presentation at PyCon 2013, which tried to
 go through all of the major *dramatis personae* of cryptography to make TLS
 work in 45 minutes. This book is the natural extension of that, with an
 extensive focus on breaking cryptography.
-
-![Crypto 101 screenshot](img/crypto101.png)
 
 ## Books
 
@@ -265,7 +242,8 @@ challenges. Choose from math, crypto or coding-themed puzzles.
 
 ## Math
 
-#### Project Euler: [`projecteuler.net`](https://projecteuler.net/), ★★★★★
+### [Project Euler](https://projecteuler.net/)
+![Project Euler screenshot](img/projecteuler.png)
 
 A series of challenging mathematical/computer programming problems
 that will require more than just mathematical insights to solve.
@@ -276,11 +254,10 @@ Great place for beginners and more advanced people alike, whether
 you are interested in learning or improving your programming skills
 or in mathematics.
 
-![Project Euler screenshot](img/projecteuler.png)
-
 ## Crypto
 
-#### matasano: [`cryptopals.com`](http://cryptopals.com), ★★★★★
+### [Cryptopals](http://cryptopals.com)
+![Cryptopals screenshot](img/cryptopals.png)
 
 A different way to learn about crypto than taking a class
 or reading a book. We give you problems to solve. They're derived
@@ -294,9 +271,8 @@ Great place for some hands-on experience with cryptography, the
 challenges aren't too difficult but they provide a good understanding
 of the theory behind some of the crypto we use.
 
-![Cryptopals screenshot](img/cryptopals.png)
-
-#### id0-rsa: [`id0-rsa.pub`](https://id0-rsa.pub),
+#### [id0-rsa](https://id0-rsa.pub),
+![id0-rsa screenshot](img/id0_rsa.png)
 
 Some problems related to computer security (specifically poorly
 implemented security). You are free to use any language
@@ -304,11 +280,10 @@ and environment you like to complete them. The problems require
 familiarity with programming, but not necessarily with applied
 cryptography or computer security in general.
 
-![id0-rsa screenshot](img/id0_rsa.png)
-
 ## Coding 
 
-#### CS:APP3e Lab Assignments: [`csapp.cs.cmu.edu/3e/labs.html`](http://csapp.cs.cmu.edu/3e/labs.html)
+#### [CS:APP3e Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
+![CS:APP3e screenshot](img/cs_app3e_lab.png)
 
 This book (CS:APP3e) is the third edition of a book that stems from the
 introductory computer systems course developed at Carnegie Mellon
@@ -317,9 +292,7 @@ Systems" (ICS)
 
 Assignments involving low-level programming, some of them are quite interesting.
 
-![CS:APP3e screenshot](img/cs_app3e_lab.png)
-
-#### CodeChef: [`codechef.com`](https://www.codechef.com)
+#### [CodeChef](https://www.codechef.com)
 
 CodeChef was created as a platform to help programmers make it big in the
 world of algorithms, computer programming and programming contests. We host
@@ -334,7 +307,7 @@ average, 30+ external contests are hosted on our platform every month.
 These can help you learn security concepts by providing safe and *legal*
 environments where you can break security. It's like a sandbox for hackers.
 
-#### Over the Wire: [`overthewire.org/wargames`](https://overthewire.org/wargames/)
+### [Over the Wire](https://overthewire.org/wargames/)
 
 The wargames offered by the OverTheWire community can help you to learn and
 practice security concepts in the form of fun-filled games.
@@ -342,7 +315,7 @@ practice security concepts in the form of fun-filled games.
 Provides a list of online (hosted) wargames, along with informations on
 how to access it (SSH access).
 
-#### We Chall: [`wechall.net`](https://www.wechall.net)
+### [We Chall](https://www.wechall.net)
 
 Aggregates resources and links to challenges. Probably more extensive than
 my list, and also includes some rather obscure ones. Worth checking out.
@@ -355,7 +328,7 @@ tools. They still have interesting problems — but some people use these as a
 means to get hired instead of out of the pure pleasure of solving a
 (complicated) problem.
 
-#### HackerRank: [`hackerrank.com`](https://www.hackerrank.com)
+### [HackerRank](https://www.hackerrank.com)
 
 The HackerRank team is on a mission to match every developer in the world to
 the right job by providing a technical recruiting platform that assesses
@@ -364,7 +337,7 @@ way companies discover and evaluate talented developers. HackerRank is the
 destination for the best developers to hone their skills and for companies to
 find top software developers.
 
-#### LeetCode: [`leetcode.com`](https://leetcode.com)
+### [LeetCode](https://leetcode.com)
 
 Over 750 questions for you to practice. Come and join one of the largest tech
 communities with hundreds of thousands of active users and participate in our
@@ -376,37 +349,34 @@ There are also some challenges that are a little more game-like. Some of these
 might be good for beginners, while others might be good because you can watch
 your code running, live.
 
-#### RubyWarrior: [`bloc.io/ruby-warrior`](https://www.bloc.io/ruby-warrior)
+### [RubyWarrior](https://www.bloc.io/ruby-warrior)
+![RubyWarrior screenshot](img/ruby_warrior.png)
 
 You take control over a warrior, by writing a minimalist A.I. to control
 him on his quest. Cute retro pixel art and Ruby make this a pleasant and
 addicting game at the same time.
 
-![RubyWarrior screenshot](img/ruby_warrior.png)
-
-#### Screeps: [`screeps.com`](https://screeps.com)
+### [Screeps](https://screeps.com)
+![Screeps screenshot](img/screeps.png)
 
 Screeps means “scripting creeps.” It’s an open-source sandbox MMO RTS game
 for programmers, wherein the core mechanic is programming your units’ AI. You
 control your colony by writing JavaScript which operate 24/7 in the single
 persistent real-time world filled by other players on par with you.
 
-![Screeps screenshot](img/screeps.png)
-
 ### Resources
 
 You need help with some of these challenges? Or you want to learn
 more? These resources might help.
 
-#### Competetive Programmer's Handbook: [`cses.fi/book.html`](https://cses.fi/book.html)
+### [Competetive Programmer's Handbook](https://cses.fi/book.html)
+![Competetive Programmer's Handbook screenshot](img/comp_prog_hand.png)
 
 The purpose of this book is to give the reader a thorough introduction to
 competitive programming. The book is especially intended for students who
 want to learn algorithms and possibly participate in the International
 Olympiad in Informatics (IOI) or in the International Collegiate Programming
 Contest (ICPC).
-
-![Competetive Programmer's Handbook screenshot](img/comp_prog_hand.png)
 
 # Design
 
@@ -417,19 +387,17 @@ design.
 
 ## Photography
 
-#### Unsplash: [`unsplash.com`](https://unsplash.com), ★★★★★
+### [Unsplash](https://unsplash.com), ★★★★★
+![Unsplash screenshot](img/unsplash.png)
 
 Over 300,000 free (do whatever you want) high-resolution photos brought
 to you by the world’s most generous community of photographers.
-
 Need a new wallpaper? A backgroup photo for a website design? Stock photos
 to fill in some blanks?
 
-![Unsplash screenshot](img/unsplash.png)
-
 ## Fonts
 
-#### nerd-fonts: [`github.com/ryanoasis/nerd-fonts`](https://github.com/ryanoasis/nerd-fonts)
+### [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 
 Project that patches developer targeted fonts with a high number of glyphs
 (icons). Specifically to add a high number of extra glyphs from popular 'iconic
@@ -441,19 +409,18 @@ means you can both use them for programming work as well as to disply
 fontawesome icons as outputs in scripts or you can use the powerline
 glyphs to aesthetically spice up your `vim`.
 
-#### Input: [`input.fontbureau.com`](http://input.fontbureau.com)
+### [Input](http://input.fontbureau.com)
+![Input Font screenshot](img/input_font.png)
 
 Flexible system of fonts designed specifically for code by David Jonathan
 Ross. It offers both monospaced and proportional fonts, all with a large
 range of widths, weights, and styles for richer code formatting.
-
 A particularly beautiful set of monospace fonts for programming.
-
-![Input Font screenshot](img/input_font.png)
+Free for personal use.
 
 ## Other
 
-#### Solarized Colorscheme
+### Solarized Colorscheme
 
 *TODO.*
 
@@ -466,14 +433,15 @@ just better at.
 
 ## GUI
 
-#### Dash: [`kapeli.com/dash`](https://kapeli.com/dash)
+### [Dash](https://kapeli.com/dash)
+![Dash screenshot](img/dash.png)
 
 An API Documentation Browser and Code Snippet Manager. Dash stores snippets
 of code and instantly searches offline documentation sets for 200+ APIs, 
 100+ cheat sheets and more. You can even generate your own docsets or request
 docsets to be included.
 
-I literally don't know what I would do without Dash. If you need to find out
+I really don't know what I would do without Dash. If you need to find out
 the name of a method of a function in a given programming language, if you
 need to find out how a given library function works, or for some languages
 even if you want to look up the source code of a particular function, Dash
@@ -481,9 +449,8 @@ is there for you. No more googling anything, you just download the docsets
 for all the languages (and libraries, and Ruby gems, and Npm packages, 
 and whatever else you need) and you alwasy have it with you.
 
-![Dash screenshot](img/dash.png)
-
-#### Textual: [`codeux.com/textual`](https://www.codeux.com/textual/)
+### [Textual](https://www.codeux.com/textual/)
+![Textual 5 screenshot](img/textual.png)
 
 The world's most popular application for interacting with Internet Relay Chat
 (IRC) chatrooms on macOS.  Includes two elegantly designed dark and light
@@ -501,9 +468,8 @@ find it directly, but the source is on
 [GitHub](https://github.com/Codeux-Software/Textual) and it is possible to
 build it from source (if you know what you're doing).
 
-![Textual 5 screenshot](img/textual.png)
-
-#### GitUp: [`gitup.co`](http://gitup.co)
+### [GitUp](http://gitup.co)
+![GitUp screenshot](img/gitup.png)
 
 Normally, the `git` command-line tool is just what you need. It's more
 efficient to use while you're in the terminal anyways, you don't want to
@@ -524,32 +490,28 @@ I think as an open-source tool, GitUp is useful to have in your toolbelt.
 It might not replace your everyday use of `git`, but it will be there when 
 you need it.
 
-![GitUp screenshot](img/gitup.png)
-
-#### Alacritty: [`github.com/jwilm/alacritty`](https://github.com/jwilm/alacritty)
+### [Alacritty](https://github.com/jwilm/alacritty)
+![Alacritty screenshot](img/alacritty.png)
 
 Simple, performant, GPU-accelerated terminal emulator for macOS and Linux.
 Probably the fastest terminal emulator out there.
-
 I wrote this whole document in `vim` running inside `tmux` running in `Alacritty`.
 Need I say more?
 
-![Alacritty screenshot](img/alacritty.png)
-
 ## Basics
 
-#### [tmux](https://github.com/tmux/tmux)
+### [tmux](https://github.com/tmux/tmux)
 
 Terminal multiplexer: run multiple virtual terminals in one physical
 terminal. Want two terminals side-by-side? No problem. Want four terminals
 in one? Easy. Want a large terminal to edit a file and a smaller underneath
 to run tests? Done.
 
-#### [Zsh](http://www.zsh.org)
+### [Zsh](http://www.zsh.org)
 
 Powerful shell with scripting language.
 
-##### Plugins
+#### Plugins
 
 - [Oh-My-Zsh](https://ohmyz.sh)
 
@@ -559,22 +521,22 @@ Powerful shell with scripting language.
 
   Zsh configuration framework with blazing speed and modular extensions.
 
-#### [Bash](https://www.gnu.org/software/bash/)
+### [Bash](https://www.gnu.org/software/bash/)
 
 The standard shell on most systems. Very simple but decent. This probably comes
 pre-installed on your system anyways but hey — sent it some love.
 
-##### Plugins
+#### Plugins
 
 - [Sensible Bash](https://github.com/mrzool/bash-sensible): Sane bash defaults.
 
-#### [Vim](http://www.vim.org)
+### [Vim](http://www.vim.org)
 
 The ubiquitous editor. Available on most systems out-of-the-box. Versatile.
 Extendable with plugins. Famously difficult to quit out of. If you can conquer
 Vim — you'll feel right at home anywhere.
 
-##### Plugins
+#### Plugins
 
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
 
@@ -602,16 +564,16 @@ Vim — you'll feel right at home anywhere.
 
   Lean and mean status / tabline for Vim that's light as air.
 
-#### [NeoVim](https://neovim.io)
+### [NeoVim](https://neovim.io)
 
 Modern editor based on Vim, with better extendability support.
 
-#### [AMP](https://amp.rs)
+### [AMP](https://amp.rs)
 
 No plugins, zero configurations. All the essentials packed in by default.
 Written in Rust, inspired by Vim.
 
-#### Git: [`git-scm.com`](https://git-scm.com)
+### [Git](https://git-scm.com)
 
 The *de-facto* standard (distributed) version control system. Tracks
 your code files, allows you to undo any change that you have committed,

@@ -7,26 +7,26 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 
 ## Contents
 
-- [Entertainment](#entertainment)
-    - [Journals](#journals) *I recommend.*
-    - [News](#news) *sites for professionals.*
-    - [Blogs](#blogs) *worth reading.*
-    - [Videos](#videos) *worth watching.*
-- [Resources](#resources) *for learning.*
-    - [Web](#web) *sites with useful content.*
-    - [Books](#books) *must-read.*
-    - [Papers](#papers) *must-read.*
-- [Challenges](#challenges) *for programmer.*
-    - [Math](#math) *focussed puzzles.*
-    - [Crypto](#crypto) *focussed puzzles*
-    - [Coding](#coding) *generic problems.*
-    - [Commercial](#commercial) *platforms.*
-    - [Resources](#resources-1) *that might help in solving these.*
-- [Design](#design) *resources that I find helpful*
-    - [Photography](#photography) *that you can use in your designs*
-    - [Fonts](#fonts) *that are suitable for your console*
-- [Programming Languages](#programming-languages) *that I find amazing*
-- [Tools](#tools) *that I find essential*
+- [Entertainment](#entertainment) *that isn't pointless*.
+    - [Journals](#journals)
+    - [News](#news)
+    - [Blogs](#blogs)
+    - [Videos](#videos)
+- [Resources](#resources) *to help you learn*.
+    - [Web](#web)
+    - [Books](#books)
+    - [Papers](#papers)
+- [Challenges](#challenges) *for programmers*.
+    - [Math](#math)
+    - [Crypto](#crypto)
+    - [Coding](#coding)
+    - [Commercial](#commercial)
+    - [Resources](#resources-1)
+- [Design](#design) *resources that might help you*.
+    - [Photography](#photography)
+    - [Fonts](#fonts)
+- [Programming Languages](#programming-languages) *that I love*.
+- [Tools](#tools) *that I find essential*.
     - [Terminal](#terminal)
     - [Editors](#editors)
     - [Version Control](#version-control)
@@ -34,10 +34,10 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
     - [Code Formatter](#code-formatter)
     - [Code Sanitizers](#code-sanitizers)
     - [Debuggers](#debuggers)
-- [Libraries](#libraries)
+- [Libraries](#libraries) *that are useful*.
     - [C Libraries](#c-libraries)
     - [C++ Libraries](#c-libraries-1)
-- [Further](#further)
+- [Further](#further) *things I don't know how to categorize*.
 
 ## Entertainment
 

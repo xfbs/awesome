@@ -38,6 +38,38 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Further](#further)
 
 
+<details><summary>[Entertainment](#entertainment)</summary>
+    - [Journals](#journals)
+    - [News](#news)
+    - [Blogs](#blogs)
+    - [Videos](#videos)
+</details>
+- [Resources](#resources)
+- [Challenges](#challenges)
+    - [Math](#math)
+    - [Crypto](#crypto)
+    - [Coding](#coding)
+    - [Commercial](#commercial)
+- [Design](#design)
+    - [Photography](#photography)
+- [Programming Languages](#programming-languages)
+- [Tools](#tools)
+    - [Terminal](#terminal)
+    - [Editors](#editors)
+    - [Version Control](#version-control)
+    - [Static Analysis](#static-analysis)
+    - [Code Formatter](#code-formatter)
+    - [Code Sanitizers](#code-sanitizers)
+    - [Debuggers](#debuggers)
+- [Libraries](#libraries)
+    - [C Libraries](#c-libraries)
+    - [C++ Libraries](#c-libraries-1)
+- [Reading](#reading)
+    - [Books](#books)
+    - [Papers](#papers)
+- [Further](#further)
+
+
 ## Entertainment
 
 ### Journals

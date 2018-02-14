@@ -53,9 +53,9 @@ than to have them rot in my previous convoluted folder hierachies.
     - [D](#d)
 - [Further](#further) *things I don't know how to categorize*.
 
-## Entertainment
+# Entertainment
 
-### Journals
+## Journals
 
 Semi-regular publications. As the publication frequency is much lower than
 news websites, these can go into much more detail and are thus probably the
@@ -71,7 +71,7 @@ hackery.
 
 ![PoC||GTFO screenshot](img/pocorgtfo.png)
 
-### News
+## News
 
 These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
@@ -122,7 +122,7 @@ Generic tech news.
 
 ![The Verge screenshot](img/theverge.png)
 
-### Blogs
+## Blogs
 
 A few technology/culture centric blogs woth checking out.
 
@@ -149,7 +149,7 @@ Blog about programming in a variety of languages, including Python, C, C++.
 
 ![Eli Bendersky's Website](img/eli_bendersky.png)
 
-### Videos
+## Videos
 
 #### devttys0: [YouTube Channel](https://www.youtube.com/channel/UCuEqgu-PN4B2Jm_B5tccPCA), ★★★★★
 
@@ -190,11 +190,11 @@ of hackers. Has a lot of high-quality content.
 
 ![CCC media screenshot](img/ccc_media.png)
 
-## Resources
+# Resources
 
 You want to learn something? You've come to the right place.
 
-### Web
+## Web
 
 Resources from around the web.
 
@@ -253,16 +253,16 @@ prefer not to wade through dry textbooks? Then this page is for you.
 
 ![Crypto 101 screenshot](img/crypto101.png)
 
-### Books
+## Books
 
-### Papers
+## Papers
 
-## Challenges
+# Challenges
 
 So you think you can code? Well, prove yourself wrong with any one of these
 challenges. Choose from math, crypto or coding-themed puzzles.
 
-### Math
+## Math
 
 #### Project Euler: [`projecteuler.net`](https://projecteuler.net/), ★★★★★
 
@@ -277,7 +277,7 @@ or in mathematics.
 
 ![Project Euler screenshot](img/projecteuler.png)
 
-### Crypto
+## Crypto
 
 #### matasano: [`cryptopals.com`](http://cryptopals.com), ★★★★★
 
@@ -305,7 +305,7 @@ of the theory behind some of the crypto we use.
 
 ![id0-rsa screenshot](img/id0_rsa.png)
 
-### Coding 
+## Coding 
 
 #### CS:APP3e Lab Assignments: [`csapp.cs.cmu.edu/3e/labs.html`](http://csapp.cs.cmu.edu/3e/labs.html)
 
@@ -328,7 +328,7 @@ Assignments involving low-level programming, some of them are quite interesting.
 > organizations across the globe use our platform to host their contests. On an
 > average, 30+ external contests are hosted on our platform every month.
 
-### Wargames
+## Wargames
 
 These can help you learn security concepts by providing safe and *legal*
 environments where you can break security. It's like a sandbox for hackers.
@@ -346,7 +346,7 @@ how to access it (SSH access).
 Aggregates resources and links to challenges. Probably more extensive than
 my list, and also includes some rather obscure ones. Worth checking out.
 
-### Commercial
+## Commercial
 
 There are also some commecial challenges. These websites might offer paid
 subscriptions or they might be sponsored by companies and used as recruitment
@@ -369,7 +369,7 @@ means to get hired instead of out of the pure pleasure of solving a
 > communities with hundreds of thousands of active users and participate in our
 > contests to challenge yourself and earn rewards.
 
-### Fun
+## Fun
 
 There are also some challenges that are a little more game-like. Some of these
 might be good for beginners, while others might be good because you can watch
@@ -409,14 +409,14 @@ more? These resources might help.
 
 ![Competetive Programmer's Handbook screenshot](img/comp_prog_hand.png)
 
-## Design
+# Design
 
 Programming and Design is inseparably linked — whenever you write code, you design.
 That could be the design of the framework, the design of the API, or the
 design of the UI. These are some resources that are related to programming and
 design.
 
-### Photography
+## Photography
 
 #### Unsplash: [`unsplash.com`](https://unsplash.com), ★★★★★
 
@@ -428,7 +428,7 @@ to fill in some blanks?
 
 ![Unsplash screenshot](img/unsplash.png)
 
-### Fonts
+## Fonts
 
 #### nerd-fonts: [`github.com/ryanoasis/nerd-fonts`](https://github.com/ryanoasis/nerd-fonts)
 
@@ -452,20 +452,20 @@ A particularly beautiful set of monospace fonts for programming.
 
 ![Input Font screenshot](img/input_font.png)
 
-### Other
+## Other
 
 #### Solarized Colorscheme
 
 *TODO.*
 
-## Tools
+# Tools
 
 In this section I will showcase the most useful tools that I have an use. These
 include both command-line and GUI tools. I'm a big proponent for doing things
 the command-line way, but there are some things here and there that GUIs are
 just better at.
 
-### GUI
+## GUI
 
 #### Dash: [`kapeli.com/dash`](https://kapeli.com/dash)
 
@@ -540,7 +540,7 @@ Need I say more?
 
 ![Alacritty screenshot](img/alacritty.png)
 
-### Basics
+## Basics
 
 #### tmux: [`github.com/tmux/tmux`](https://github.com/tmux/tmux)
 
@@ -611,12 +611,12 @@ Need I say more?
 
 The one and only; the true path to programmer satisfaction.
 
-## Languages
+# Languages
 
 Which programming languages do I find cool? Which programming languages do I
 find useful? Which programming languages would I recommend to a friend to learn?
 
-#### Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
+## Ruby: [`ruby-lang.org`](https://www.ruby-lang.org)
 
 > Ruby is a language of careful balance. Its creator, Yukihiro “Matz”
 > Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel,
@@ -657,7 +657,7 @@ $ gem install rubocop
 
 With a valid ruby file, like such:
 
-###### [`examples/rubocop/example.rb`](examples/rubocop/example.rb)
+###### file: [`examples/rubocop/example.rb`](examples/rubocop/example.rb)
 
 ```ruby
 # bad -- four spaces instead of two.
@@ -709,7 +709,7 @@ C: 14:  1: [Corrected] Layout/EmptyLines: Extra blank line detected.
 
 ### Libraries
 
-#### Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
+## Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
 
 > Crystal is a programming language with the following goals:
 > - Have a syntax similar to Ruby (but compatibility with it is not a goal)
@@ -743,11 +743,11 @@ puts "Listening on http://127.0.0.1:8080"
 server.listen
 ```
 
-#### Tools
+### Tools
 
-#### Libraries
+### Libraries
 
-### C
+## C
 
 > C (/siː/, as in the letter c) is a general-purpose, imperative computer
 > programming language, supporting structured programming, lexical variable
@@ -776,34 +776,34 @@ basic building blocks, with most languages implemented in C. Knowing C is
 paramount when trying to understand other languages by digging into their
 source code.
 
-#### Compilers
+### Compilers
 
-##### [Clang](https://clang.llvm.org/)
+#### [Clang](https://clang.llvm.org/)
 
-##### gcc
-
-#### Tools
-
-##### [Clang AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+#### [Clang AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
 
 > Fast memory error detector, that can find out-of-bounds accesses, 
 > use-after-free, double-free, invalid free, memory leaks.
 
-##### [Clang LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
+#### [Clang LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
 
 > Run-time memory leak detector.
 
-##### [Clang MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
+#### [Clang MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
 
 > Detector of uninitialized reads.
 
-##### [Clang UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+#### [Clang UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
 
 > Fast undefined behavior detector. Modifies the program at compile-time
 > to catch various kinds of undefined behavior during program execution, for
 > example: using misaligned or null pointers, signed integer overflows, or
 > conversion to, from, or between floating-point types which would overflow
 > the destination.
+
+#### gcc
+
+### Tools
 
 ##### [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 
@@ -838,9 +838,9 @@ source code.
 > tools that can automatically detect many memory management and threading
 > bugs, and profile code in detail.
 
-#### Libraries
+### Libraries
 
-##### Snow: [`github.com/mortie/snow`](https://github.com/mortie/snow)
+#### Snow: [`github.com/mortie/snow`](https://github.com/mortie/snow)
 
 > Header-only unit testing library for C.
 
@@ -879,23 +879,23 @@ describe(files, {
 snow_main();
 ```
 
-##### Jansson: [`github.com/akheron/jansson`](https://github.com/akheron/jansson)
+#### Jansson: [`github.com/akheron/jansson`](https://github.com/akheron/jansson)
 
 > Parse and generate JSON formatted data.
 
-##### Debug: [`github.com/esneider/debug`](https://github.com/esneider/debug)
+#### Debug: [`github.com/esneider/debug`](https://github.com/esneider/debug)
 
 > Debug like a sir.
 
-##### utf8.h: [`github.com/sheredom/utf8.h`](https://github.com/sheredom/utf8.h)
+#### utf8.h: [`github.com/sheredom/utf8.h`](https://github.com/sheredom/utf8.h)
 
 > UTF-8 string handling made easy.
 
-##### Onigmo: [`github.com/k-takata/Onigmo`](https://github.com/k-takata/Onigmo)
+#### Onigmo: [`github.com/k-takata/Onigmo`](https://github.com/k-takata/Onigmo)
 
 > Regex library, default library used by Ruby 2.0 and later.
 
-### Rust: [`rust-lang.org`](https://rust-lang.org)
+## Rust: [`rust-lang.org`](https://rust-lang.org)
 
 > Rust is a systems programming language that runs blazingly fast, prevents
 > segfaults, and guarantees thread safety.
@@ -909,13 +909,13 @@ Rust borrow checker. It's a beautiful language, with a very intimidating
 promise and the potential to rival C. It does have a sweet syntax, taking
 in many inspirations from other languages.
 
-#### Tools
+### Tools
 
-##### [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
+#### [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
 
 >   A tool for formatting Rust code according to style guidelines.
 
-##### [rustup](https://www.rustup.rs)
+#### [rustup](https://www.rustup.rs)
 
 > Installer for Rust.
 
@@ -924,48 +924,48 @@ more than just installing Rust. It can keep track of different toolchains for,
 you can use it to switch between channels (eg. `stable`, `beta`, `nightly`),
 and you can update each toolchain.
 
-#### Libraries
+### Libraries
 
-### Python: [`python.org`](https://python.org)
+## Python: [`python.org`](https://python.org)
 
-### Chicken Scheme: [`call-cc.org`](http://call-cc.org)
+## Scheme: [`call-cc.org`](http://call-cc.org)
 
-### OCaml: [ocaml](https://github.com/ocaml/ocaml)
+## OCaml: [ocaml](https://github.com/ocaml/ocaml)
 
-### Node.js: [nodejs](https://github.com/nodejs/node)
+## Node.js: [nodejs](https://github.com/nodejs/node)
 
-### Java9: [java9](https://www.oracle.com/java/java9.html)
+## Java9: [java9](https://www.oracle.com/java/java9.html)
 
-### Haskell: [haskell](https://www.haskell.org)
+## Haskell: [haskell](https://www.haskell.org)
 
-### RISC5: [risc5asm](https://rv8.io)
+## RISC5: [risc5asm](https://rv8.io)
 
-### C++: [cpp](http://clang.org)
+## C++: [cpp](http://clang.org)
 
-#### Tools
+### Tools
 
-##### clang-tidy: [`clang.llvm.org/extra/clang-tidy`](http://clang.llvm.org/extra/clang-tidy/)
+#### clang-tidy: [`clang.llvm.org/extra/clang-tidy`](http://clang.llvm.org/extra/clang-tidy/)
 
 >   A clang-based C++ “linter” tool. Its purpose is to provide an extensible
 >   framework for diagnosing and fixing typical programming errors, like style
 >   violations, interface misuse, or bugs that can be deduced via static
 >   analysis.
 
-#### Libraries
+### Libraries
 
-##### Catch2: [`github.com/catchorg/Catch2`](https://github.com/catchorg/Catch2)
+#### Catch2: [`github.com/catchorg/Catch2`](https://github.com/catchorg/Catch2)
 
 >   Simple unit testing framework for C++
 
-### Swift: [swift](https://github.com/apple/swift)
+## Swift: [swift](https://github.com/apple/swift)
 
-### Nim: [nim](https://nim-lang.org)
+## Nim: [nim](https://nim-lang.org)
 
-### LuaJIT: [luajit](https://luajit.org/luajit.html)
+## LuaJIT: [luajit](https://luajit.org/luajit.html)
 
-### D: [`dlang.org`](https://dlang.org/)
+## D: [`dlang.org`](https://dlang.org/)
 
-## Further
+# Further
 
 Assorted Awesome lists worth checking out with content related to mine.
 

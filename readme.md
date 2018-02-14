@@ -27,13 +27,10 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
     - [Fonts](#fonts)
 - [Programming Languages](#programming-languages) *that I love*.
 - [Tools](#tools) *that I find essential*.
-    - [Terminal](#terminal)
-    - [Editors](#editors)
-    - [Version Control](#version-control)
-    - [Static Analysis](#static-analysis)
-    - [Code Formatter](#code-formatter)
-    - [Code Sanitizers](#code-sanitizers)
-    - [Debuggers](#debuggers)
+    - [Basics](#basics)
+    - [GUI](#gui)
+    - [Programming](#programming)
+    - [Debugging](#debuggers)
 - [Libraries](#libraries) *that are useful*.
     - [C Libraries](#c-libraries)
     - [C++ Libraries](#c-libraries-1)
@@ -526,7 +523,7 @@ include both command-line and GUI tools. I'm a big proponent for doing things
 the command-line way, but there are some things here and there that GUIs are
 just better at.
 
-### Documentation Browsers
+### GUI
 
 #### Dash: [`kapeli.com/dash`](https://kapeli.com/dash)
 
@@ -542,8 +539,6 @@ even if you want to look up the source code of a particular function, Dash
 is there for you. No more googling anything, you just download the docsets
 for all the languages (and libraries, and Ruby gems, and Npm packages, 
 and whatever else you need) and you alwasy have it with you.
-
-### Chatting
 
 #### Textual: [`codeux.com/textual`](https://www.codeux.com/textual/)
 
@@ -562,106 +557,6 @@ works, it's not overloaded. Also, it's open source — on the website you won't
 find it directly, but the source is on
 [GitHub](https://github.com/Codeux-Software/Textual) and it is possible to
 build it from source (if you know what you're doing).
-
-### Terminal
-
-The most powerful tool for the programmer is the terminal.
-
->   A curated list of Terminal frameworks, plugins & resources for CLI lovers.
-
-- [Terminals Are Sexy](https://terminalsare.sexy)
-
-#### Emulators
-
->   Simple, performant, GPU-accelerated terminal emulator for macOS and Linux.
->   Probably the fastest terminal emulator out there.
-
-- [Alacritty](https://github.com/jwilm/alacritty)
-
->   Terminal multiplexer: run multiple virtual terminals in one physical
->   terminal. Open terminal side-by-side.
-
-- [tmux](https://github.com/tmux/tmux)
-
-#### Shells
-
->   Powerful shell with scripting language.
-
-- [Zsh](http://www.zsh.org)
-
->   Open source, community-driven framework for managing your ZSH configuration.
-
-- [Oh-My-Zsh](https://ohmyz.sh)
-
->   Zsh configuration framework with blazing speed and modular extensions.
-
-- [Zim](https://github.com/zimfw/zimfw)
-
->   The standard shell on most systems. Very simple but decent. 
-
-- [Bash](https://www.gnu.org/software/bash/)
-
->   Sane bash defaults.
-
-- [Sensible Bash](https://github.com/mrzool/bash-sensible)
-
-### Editors
-
-What is a programmer without a capable editor?
-
->   The ubiquitous editor. Available on most systems out-of-the-box. Versatile.
->   Extendable with plugins. Famously difficult to quit out of.
-
-- [Vim](http://www.vim.org)
-
->   Modern editor based on Vim, with better extendability support.
-
-- [NeoVim](https://neovim.io)
-
->   No plugins, zero configurations. All the essentials packed in by default.
->   Writtenin Rust, inspired by Vim.
-
-- [AMP](https://amp.rs)
-
-#### Editor Plugins
-
-No editor is complete without a decent set of plugins to enable all the
-functionality you need.
-
->   Makes it super easy to install plugins and runtime files into their own
->   private directories. Why? Because it means that you can clone Vim plugins
->   into `~/.vim/bundle` and they will be autoloaded.
-
-- [pathogen.vim](https://github.com/tpope/vim-pathogen)
-
->   Sensible defaults for Vim.
-
-- [sensible.vim](https://github.com/tpope/vim-sensible)
-
->   Syntax checker for Vim.
-
-- [syntastic](https://github.com/vim-syntastic/syntastic)
-
->   File explorar plugin for Vim.
-
-- [nerdtree](https://github.com/scrooloose/nerdtree)
-
->   Solarized colorscheme for Vim.
-
-- [vim-colors-solatized](https://github.com/altercation/vim-colors-solarized)
-
->   Lean and mean status / tabline for Vim that's light as air.
-
-- [vim-airline](https://github.com/vim-airline/vim-airline)
-
-### Version Control
-
-Version control is the bread and butter of modern day programming.
-
-#### Git: [`git-scm.com`](https://git-scm.com)
-
-The one and only; the true path to programmer satisfaction.
-
 
 #### GitUp: [`gitup.co`](http://gitup.co)
 
@@ -699,21 +594,100 @@ I think as an open-source tool, GitUp is useful to have in your toolbelt.
 It might not replace your everyday use of `git`, but it will be there when 
 you need it.
 
-### Static Analysis
+#### Alacritty: [`github.com/jwilm/alacritty`](https://github.com/jwilm/alacritty)
 
-It can catch bugs — before they happen!
+> Simple, performant, GPU-accelerated terminal emulator for macOS and Linux.
+> Probably the fastest terminal emulator out there.
+
+I wrote this whole document in `vim` running inside `tmux` running in `Alacritty`.
+Need I say more?
+
+### Basics
+
+#### tmux: [`github.com/tmux/tmux`](https://github.com/tmux/tmux)
+
+> Terminal multiplexer: run multiple virtual terminals in one physical
+> terminal. Open terminal side-by-side.
+
+- [Zsh](http://www.zsh.org)
+
+>   Powerful shell with scripting language.
+
+- [Oh-My-Zsh](https://ohmyz.sh)
+
+>   Open source, community-driven framework for managing your ZSH configuration.
+
+- [Zim](https://github.com/zimfw/zimfw)
+
+>   Zsh configuration framework with blazing speed and modular extensions.
+
+- [Bash](https://www.gnu.org/software/bash/)
+
+>   The standard shell on most systems. Very simple but decent. 
+
+- [Sensible Bash](https://github.com/mrzool/bash-sensible)
+
+>   Sane bash defaults.
+
+- [Vim](http://www.vim.org)
+
+>   The ubiquitous editor. Available on most systems out-of-the-box. Versatile.
+>   Extendable with plugins. Famously difficult to quit out of.
+
+- [NeoVim](https://neovim.io)
+
+>   Modern editor based on Vim, with better extendability support.
+
+- [AMP](https://amp.rs)
+
+>   No plugins, zero configurations. All the essentials packed in by default.
+>   Writtenin Rust, inspired by Vim.
+
+- [pathogen.vim](https://github.com/tpope/vim-pathogen)
+
+>   Makes it super easy to install plugins and runtime files into their own
+>   private directories. Why? Because it means that you can clone Vim plugins
+>   into `~/.vim/bundle` and they will be autoloaded.
+
+- [sensible.vim](https://github.com/tpope/vim-sensible)
+
+>   Sensible defaults for Vim.
+
+- [syntastic](https://github.com/vim-syntastic/syntastic)
+
+>   Syntax checker for Vim.
+
+- [nerdtree](https://github.com/scrooloose/nerdtree)
+
+>   File explorar plugin for Vim.
+
+- [vim-colors-solatized](https://github.com/altercation/vim-colors-solarized)
+
+>   Solarized colorscheme for Vim.
+
+- [vim-airline](https://github.com/vim-airline/vim-airline)
+
+>   Lean and mean status / tabline for Vim that's light as air.
+
+#### Git: [`git-scm.com`](https://git-scm.com)
+
+The one and only; the true path to programmer satisfaction.
+
+### Programming
+
+- [rubocop](https://github.com/bbatsov/rubocop)
 
 >   A Ruby static code analyzer, based on the community Ruby style guide. Some
 >   of the violations it finds it can, if you want it to, fix itself.
 
-- [rubocop](https://github.com/bbatsov/rubocop)
+- [clang-tidy](http://clang.llvm.org/extra/clang-tidy/)
 
 >   A clang-based C++ “linter” tool. Its purpose is to provide an extensible
 >   framework for diagnosing and fixing typical programming errors, like style
 >   violations, interface misuse, or bugs that can be deduced via static
 >   analysis.
 
-- [clang-tidy](http://clang.llvm.org/extra/clang-tidy/)
+- [pfff](https://github.com/facebook/pfff)
 
 >   A set of tools and APIs to perform static analysis, code visualizations,
 >   code navigations, or style-preserving source-to-source transformations such
@@ -723,39 +697,28 @@ It can catch bugs — before they happen!
 >   SQL. There is also very good support for OCaml code so that the framework
 >   can be used on the code of pfff itself.
 
-- [pfff](https://github.com/facebook/pfff)
-
-### Code Formatter
-
-While some programming languages come with tooling out-of-the-box, such as
-Crystal with it's `crystal tool format` code formatter, others have to rely on
-external formatters. These are some that I found useful.
+- [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
 
 >   A tool to format C/C++/Java/JavaScript/Objective-C/Protobuf code.
 
-- [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
+- [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
 
 >   A tool for formatting Rust code according to style guidelines.
 
-- [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
-
-### Code Sanitizers
-
-While we can't prevent bugs from occuring in the first place, there are some
-things we can do in advance to help catch some.
+- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
 
 >   A fast memory error detector, that can find out-of-bounds accesses, 
 >   use-after-free, double-free, invalid free, memory leaks.
 
-- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+- [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
 
 >   A run-time memory leak detector.
 
-- [LeakSanitizer](https://clang.llvm.org/docs/LeakSanitizer.html)
+- [MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
 
 >   A detector of uninitialized reads.
 
-- [MemorySanitizer](https://clang.llvm.org/docs/MemorySanitizer.html)
+- [UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
 
 >   A fast undefined behavior detector. Modifies the program at compile-time
 >   to catch various kinds of undefined behavior during program execution, for
@@ -763,15 +726,13 @@ things we can do in advance to help catch some.
 >   conversion to, from, or between floating-point types which would overflow
 >   the destination.
 
-- [UndefinedBehaviourSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+- [Valgrind](http://valgrind.org)
 
 >   An instrumentation framework for building dynamic analysis tools. Includes
 >   tools that can automatically detect many memory management and threading
 >   bugs, and profile code in detail.
 
-- [Valgrind](http://valgrind.org)
-
-### Debuggers
+### Debuging
 
 Knowing the ins and outs of your favourite debugger is the key to efficient and
 frustrationless programming in lower-level languages.

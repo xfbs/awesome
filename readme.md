@@ -65,7 +65,7 @@ Semi-regular publications. As the publication frequency is much lower than
 news websites, these can go into much more detail and are thus probably the
 best way learn about recent advances.
 
-#### PoC||GTFO: [`alchemistowl.org/pocorgtfo`](https://www.alchemistowl.org/pocorgtfo/)
+### [PoC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
 
 The international journal of *Proof of Concept or Get The Fuck Out*. For every
 release, hackers from all around the world gather together to share what they
@@ -85,7 +85,7 @@ included in every issue.
 These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
 
-#### Lobsters: [`lobste.rs`](https://lobste.rs/), ★★★★★
+### [Lobste.rs](https://lobste.rs/)
 
 Technology-focused community centered around link aggregation and discussion.
 
@@ -93,7 +93,7 @@ All links are user-submitted. Small friendly community. Invite-only and ad free.
 
 ![Lobsters screenshot](img/lobsters.png)
 
-#### Hacker News: [`news.ycombinator.com`](https://news.ycombinator.com/), ★★★★☆
+### [Hacker News](https://news.ycombinator.com/)
 
 Social news website focusing on computer science and entrepreneurship.
 
@@ -102,7 +102,7 @@ less personal but also ad-free.
 
 ![Hacker News screenshot](img/hacker_news.png)
 
-#### The Register: [`theregister.co.uk`](http://www.theregister.co.uk/), ★★★★☆
+### [The Registe](http://www.theregister.co.uk/)
 
 Independent news and views for the tech community.
 
@@ -110,13 +110,13 @@ Based in London, UK. Does some really good dry humor, as you would expect.
 
 ![The Register screenshot](img/theregister.png)
 
-#### Ars Technica: [`arstechnica.com`](https://arstechnica.com/), ★★★★☆
+### [Ars Technica](https://arstechnica.com/)
 
 News, guides, reviews, and features.
 
 ![Ars Technica screenshot](img/arstechnica.png)
 
-#### Hubski: [`hubski.com`](http://hubski.com), ★★★★☆
+### [Hubski](http://hubski.com)
 
 A community for sharing thoughtful information and conversation.
 
@@ -124,7 +124,7 @@ Similar to [Lobsters](#lobsters), but focussed on science in general.
 
 ![Hubski screenshot](img/hubski.png)
 
-#### The Verge: [`theverge.com`](https://www.theverge.com), ★★★☆☆
+### [The Verge](https://www.theverge.com)
 
 Generic tech news.
 
@@ -134,20 +134,20 @@ Generic tech news.
 
 A few technology/culture centric blogs woth checking out.
 
-#### /dev/lawyer: [`writing.kemitchell.com`](https://writing.kemitchell.com)
+### [/dev/lawyer](https://writing.kemitchell.com)
 
 *Law, technology, and the space between*.
 
 ![/dev/lawyer screenshot](img/devlawyer.png)
 
-#### Julia Evans: [`jvns.ca`](https://jvns.ca)
+### [Julia Evans](https://jvns.ca)
 
 Regular writings involving Rust, Ruby and how to take things like syscalls
 apart.
 
 ![Julia Evans screenshot](img/jvns.png)
 
-#### Eli Bendersky's Website: [`eli.thegreenplace.net`](https://eli.thegreenplace.net/)
+### [Eli Bendersky's Website](https://eli.thegreenplace.net/)
 
 This blog began in 2003 as a personal online journal; in the past
 few years it became mostly an outlet for technical, programming-related posts.

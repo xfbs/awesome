@@ -47,18 +47,17 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Videos](#videos)
 
 </details>
-<details><summary>
+<details><summary><a href="#resources">Resources</a></summary>
+</details>
+<details><summary><a href="#challenges">Challenges</a></summary>
 
-[Resources](#resources)
+- [Math](#math)
+- [Crypto](#crypto)
+- [Coding](#coding)
+- [Commercial](#commercial)
 
-</summary>
 </details>
 
-- [Challenges](#challenges)
-    - [Math](#math)
-    - [Crypto](#crypto)
-    - [Coding](#coding)
-    - [Commercial](#commercial)
 - [Design](#design)
     - [Photography](#photography)
 - [Programming Languages](#programming-languages)

@@ -39,7 +39,10 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Further](#further)
 -->
 
-<details><summary> [Entertainment](#entertainment)
+<details><summary>
+
+[Entertainment](#entertainment)
+
 </summary>
 
 - [Journals](#journals)
@@ -48,8 +51,12 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Videos](#videos)
 
 </details>
+<details><summary>
 
-- [Resources](#resources)
+[Resources](#resources)
+
+</summary>
+
 - [Challenges](#challenges)
     - [Math](#math)
     - [Crypto](#crypto)

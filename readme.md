@@ -231,6 +231,14 @@ go through all of the major *dramatis personae* of cryptography to make TLS
 work in 45 minutes. This book is the natural extension of that, with an
 extensive focus on breaking cryptography.
 
+### [VimCasts](http://vimcasts.org)
+![VimCasts](http://vimcasts.org/)
+
+A series of screencasts targeted at people that want to learn or imporove their
+command of `vim`, from the author of *Practical Vim*, a really good book on vim
+(I bought it years ago to improve my vim skills, and still keep it in reach of
+my desk).
+
 ## Books
 
 ## Papers
@@ -343,6 +351,10 @@ Over 750 questions for you to practice. Come and join one of the largest tech
 communities with hundreds of thousands of active users and participate in our
 contests to challenge yourself and earn rewards.
 
+### [CodeFights](https://codefights.com)
+
+Another programming quiz website.
+
 ## Fun
 
 There are also some challenges that are a little more game-like. Some of these
@@ -363,6 +375,13 @@ Screeps means “scripting creeps.” It’s an open-source sandbox MMO RTS game
 for programmers, wherein the core mechanic is programming your units’ AI. You
 control your colony by writing JavaScript which operate 24/7 in the single
 persistent real-time world filled by other players on par with you.
+
+### [Regex Crossword](https://regexcrossword.com)
+![Regex Crossword screenshot](img/regexcrossword.png)
+
+Think of a crossword puzzle. Now, instead of hints, you replace them
+with Regexes. And instead of words, the solution can be anything. Well,
+anything that the regex matches. Intrigued? Check it out!
 
 ### Resources
 
@@ -580,6 +599,35 @@ your code files, allows you to undo any change that you have committed,
 allows you to work on one codebase with multiple people, allows for
 easy backups of all your code, works seamlessly with large projects
 or even modular projects.
+
+# Projects
+
+These are projects that interest me, usually from an academic point
+of view. These projects might be under construction, incomplete
+or unusable — but that's not really the point.
+
+## Operating Systems
+
+Obviously, operating systems are interesting to a Computer Scientist.
+But there are many more beyond the big three — Windows, macOS and Linux.
+And what lies beyond them is where the magic happens. 
+
+### [Redox](https://www.redox-os.org)
+
+![Redox screenshot](https://i.imgur.com/MJqsqYo.png)
+
+Unix-like operating system written in Rust, aiming to being the
+innovations of Rust to a modern microkernel and full set of
+applications.
+
+### [Ulix](http://ulixos.org)
+![Ulix screenshot](img/ulix.png)
+
+Unix-like operating system that was developed at University of Erlangen-
+Nuremberg, using Donald E. Knuth's concept of Literate Programming, both
+for the implementation and the documentation. Written in C and Assembler
+for the Intel x86 architecture. It is available in source form, and
+as book, which includes the documentation and the source code.
 
 # Languages
 

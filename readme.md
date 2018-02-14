@@ -29,8 +29,51 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
     - [Basics](#basics)
     - [GUI](#gui)
 - [Languages](#languages)
+    - [Ruby](#ruby)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Crystal](#crystal)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Rust](#rust)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
     - [C](#c-language)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Python](#python)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Scheme](#scheme)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [OCaml](#ocaml)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Node.js](#node-js)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Haskell](#haskell)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [RISC-V Asm](#risc-v-asm)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
     - [C++](#c-language-1)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Swift](#swift)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Nim](#nim)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [Lua](#lua)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
+    - [D](#d)
+        - [Tools](#tools)
+        - [Libraries](#libraries)
 - [Further](#further) *things I don't know how to categorize*.
 
 ## Entertainment
@@ -537,43 +580,6 @@ Need I say more?
 
 The one and only; the true path to programmer satisfaction.
 
-- [pfff](https://github.com/facebook/pfff)
-
->   A set of tools and APIs to perform static analysis, code visualizations,
->   code navigations, or style-preserving source-to-source transformations such
->   as refactorings on source code. There is good support for C, Java,
->   Javascript and PHP. There is also preliminary support for other languages
->   such as C++, Rust, C#, Html, CSS, Erlang, Lisp, Haskell, Python, OPA and
->   SQL. There is also very good support for OCaml code so that the framework
->   can be used on the code of pfff itself.
-
-- [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
-
->   A tool to format C/C++/Java/JavaScript/Objective-C/Protobuf code.
-
-- [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
-
->   A tool for formatting Rust code according to style guidelines.
-
-
-### Debuging
-
-Knowing the ins and outs of your favourite debugger is the key to efficient and
-frustrationless programming in lower-level languages.
-
->   The debugger we all know, love and hate.
-
-- [GDB](https://www.gnu.org/software/gdb/)
-
->   A *next generation, high-performance* debugger.
-
-- [LLDB](https://lldb.llvm.org)
-
->   Record a failure once, then debug the recording, deterministically, as many
->   times as you want.
-
-- [rr](http://rr-project.org)
-
 ## Languages
 
 Which programming languages do I find cool? Which programming languages do I
@@ -613,6 +619,8 @@ end
 > A Ruby static code analyzer, based on the community Ruby style guide. Some
 > of the violations it finds it can, if you want it to, fix itself.
 
+#### Libraries
+
 ### Crystal: [`crystal-lang.org`](https://crystal-lang.org/)
 
 > Crystal is a programming language with the following goals:
@@ -647,6 +655,10 @@ puts "Listening on http://127.0.0.1:8080"
 server.listen
 ```
 
+#### Tools
+
+#### Libraries
+
 ### C
 
 > C (/siː/, as in the letter c) is a general-purpose, imperative computer
@@ -676,60 +688,7 @@ basic building blocks, with most languages implemented in C. Knowing C is
 paramount when trying to understand other languages by digging into their
 source code.
 
-#### Snow: [`github.com/mortie/snow`](https://github.com/mortie/snow)
-
-> Header-only unit testing library for C.
-
-C really doesn't have a lot built-in. As far as testing goes, the only
-tool that C provides is the `assert()` macro, which can be used to
-set run-time assertions, which will abort the program when false.
-
-Snow wraps this into a nice-to-use DSL for defining tests for different
-modules and pretty-prints the test invocation.
-
-##### Example
-
-This is what a sample test with snow could look like (adapted from the
-[snow GitHub readme](https://github.com/mortie/snow/blob/master/README.md)):
-
-```c
-describe(files, {
-  it("opens files", {
-    FILE *f = fopen("test", "r");
-    assertneq(f, NULL);
-    defer(fclose(f));
-  });
-
-  subdesc(fread, {
-    it("reads 10 bytes", {
-      FILE *f = fopen("/dev/zero", "r");
-      assertneq(f, NULL);
-      defer(fclose(f));
-
-      char buf[10];
-      asserteq(fread(buf, 1, 10, f), 10);
-    });
-  });
-});
-
-snow_main();
-```
-
-#### Jansson: [`github.com/akheron/jansson`](https://github.com/akheron/jansson)
-
->   Parse and generate JSON formatted data.
-
-#### Debug: [`github.com/esneider/debug`](https://github.com/esneider/debug)
-
->   Debug like a sir.
-
-#### utf8.h: [`github.com/sheredom/utf8.h`](https://github.com/sheredom/utf8.h)
-
->   UTF-8 string handling made easy.
-
-#### Onigmo: [`github.com/k-takata/Onigmo`](https://github.com/k-takata/Onigmo)
-
->   Regex library, default library used by Ruby 2.0 and later.
+#### Tools
 
 - [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
 
@@ -758,6 +717,89 @@ snow_main();
 >   tools that can automatically detect many memory management and threading
 >   bugs, and profile code in detail.
 
+- [pfff](https://github.com/facebook/pfff)
+
+>   A set of tools and APIs to perform static analysis, code visualizations,
+>   code navigations, or style-preserving source-to-source transformations such
+>   as refactorings on source code. There is good support for C, Java,
+>   Javascript and PHP. There is also preliminary support for other languages
+>   such as C++, Rust, C#, Html, CSS, Erlang, Lisp, Haskell, Python, OPA and
+>   SQL. There is also very good support for OCaml code so that the framework
+>   can be used on the code of pfff itself.
+
+- [clang-format](https://clang.llvm.org/docs/ClangFormat.html)
+
+>   A tool to format C/C++/Java/JavaScript/Objective-C/Protobuf code.
+
+>   The debugger we all know, love and hate.
+
+- [GDB](https://www.gnu.org/software/gdb/)
+
+>   A *next generation, high-performance* debugger.
+
+- [LLDB](https://lldb.llvm.org)
+
+>   Record a failure once, then debug the recording, deterministically, as many
+>   times as you want.
+
+- [rr](http://rr-project.org)
+
+#### Libraries
+
+##### Snow: [`github.com/mortie/snow`](https://github.com/mortie/snow)
+
+> Header-only unit testing library for C.
+
+C really doesn't have a lot built-in. As far as testing goes, the only
+tool that C provides is the `assert()` macro, which can be used to
+set run-time assertions, which will abort the program when false.
+
+Snow wraps this into a nice-to-use DSL for defining tests for different
+modules and pretty-prints the test invocation.
+
+###### Example
+
+This is what a sample test with snow could look like (adapted from the
+[snow GitHub readme](https://github.com/mortie/snow/blob/master/README.md)):
+
+```c
+describe(files, {
+  it("opens files", {
+    FILE *f = fopen("test", "r");
+    assertneq(f, NULL);
+    defer(fclose(f));
+  });
+
+  subdesc(fread, {
+    it("reads 10 bytes", {
+      FILE *f = fopen("/dev/zero", "r");
+      assertneq(f, NULL);
+      defer(fclose(f));
+
+      char buf[10];
+      asserteq(fread(buf, 1, 10, f), 10);
+    });
+  });
+});
+
+snow_main();
+```
+
+##### Jansson: [`github.com/akheron/jansson`](https://github.com/akheron/jansson)
+
+>   Parse and generate JSON formatted data.
+
+##### Debug: [`github.com/esneider/debug`](https://github.com/esneider/debug)
+
+>   Debug like a sir.
+
+##### utf8.h: [`github.com/sheredom/utf8.h`](https://github.com/sheredom/utf8.h)
+
+>   UTF-8 string handling made easy.
+
+##### Onigmo: [`github.com/k-takata/Onigmo`](https://github.com/k-takata/Onigmo)
+
+>   Regex library, default library used by Ruby 2.0 and later.
 
 ### Rust: [`rust-lang.org`](https://rust-lang.org)
 
@@ -772,6 +814,16 @@ We all have a joke or two about a hipster programmer wildly fighting the
 Rust borrow checker. It's a beautiful language, with a very intimidating
 promise and the potential to rival C. It does have a sweet syntax, taking
 in many inspirations from other languages.
+
+#### Tools
+
+- [rustfmt](https://github.com/rust-lang-nursery/rustfmt)
+
+>   A tool for formatting Rust code according to style guidelines.
+
+##### rustup
+
+#### Libraries
 
 ### Python: [`python.org`](https://python.org)
 
@@ -789,18 +841,20 @@ in many inspirations from other languages.
 
 ### C++: [cpp](http://clang.org)
 
-#### clang-tidy: [`clang.llvm.org/extra/clang-tidy`](http://clang.llvm.org/extra/clang-tidy/)
+#### Tools
+
+##### clang-tidy: [`clang.llvm.org/extra/clang-tidy`](http://clang.llvm.org/extra/clang-tidy/)
 
 >   A clang-based C++ “linter” tool. Its purpose is to provide an extensible
 >   framework for diagnosing and fixing typical programming errors, like style
 >   violations, interface misuse, or bugs that can be deduced via static
 >   analysis.
 
+#### Libraries
 
-#### Catch2: [`github.com/catchorg/Catch2`](https://github.com/catchorg/Catch2)
+##### Catch2: [`github.com/catchorg/Catch2`](https://github.com/catchorg/Catch2)
 
 >   Simple unit testing framework for C++
-
 
 ### Swift: [swift](https://github.com/apple/swift)
 

@@ -7,6 +7,7 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 
 ## Table of Contents
 
+<!-- traditional ToC
 - [Entertainment](#entertainment)
     - [Journals](#journals)
     - [News](#news)
@@ -36,14 +37,18 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
     - [Books](#books)
     - [Papers](#papers)
 - [Further](#further)
+-->
 
+<details><summary> [Entertainment](#entertainment)
+</summary>
 
-<details><summary>[Entertainment](#entertainment)</summary>
-    - [Journals](#journals)
-    - [News](#news)
-    - [Blogs](#blogs)
-    - [Videos](#videos)
+- [Journals](#journals)
+- [News](#news)
+- [Blogs](#blogs)
+- [Videos](#videos)
+
 </details>
+
 - [Resources](#resources)
 - [Challenges](#challenges)
     - [Math](#math)

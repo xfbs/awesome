@@ -555,10 +555,13 @@ Powerful shell with scripting language.
 
 ##### Plugins
 
-- [Oh-My-Zsh](https://ohmyz.sh): Open source, community-driven framework for
-  managing your ZSH configuration.
-- [Zim](https://github.com/zimfw/zimfw): Zsh configuration framework with
-  blazing speed and modular extensions.
+- [Oh-My-Zsh](https://ohmyz.sh)
+
+  Open source, community-driven framework for managing your ZSH configuration.
+
+- [Zim](https://github.com/zimfw/zimfw)
+
+  Zsh configuration framework with blazing speed and modular extensions.
 
 #### [Bash](https://www.gnu.org/software/bash/)
 
@@ -571,10 +574,9 @@ pre-installed on your system anyways but hey — sent it some love.
 
 #### [Vim](http://www.vim.org)
 
-> The ubiquitous editor. 
-
-Available on most systems out-of-the-box. Versatile.  Extendable with plugins.
-Famously difficult to quit out of.
+The ubiquitous editor. Available on most systems out-of-the-box. Versatile.
+Extendable with plugins. Famously difficult to quit out of. If you can conquer
+Vim — you'll feel right at home anywhere.
 
 ##### Plugins
 
@@ -606,16 +608,20 @@ Famously difficult to quit out of.
 
 #### [NeoVim](https://neovim.io)
 
-> Modern editor based on Vim, with better extendability support.
+Modern editor based on Vim, with better extendability support.
 
 #### [AMP](https://amp.rs)
 
-> No plugins, zero configurations. All the essentials packed in by default.
-> Written in Rust, inspired by Vim.
+No plugins, zero configurations. All the essentials packed in by default.
+Written in Rust, inspired by Vim.
 
 #### Git: [`git-scm.com`](https://git-scm.com)
 
-The one and only; the true path to programmer satisfaction.
+The *de-facto* standard (distributed) version control system. Tracks
+your code files, allows you to undo any change that you have committed,
+allows you to work on one codebase with multiple people, allows for
+easy backups of all your code, works seamlessly with large projects
+or even modular projects.
 
 # Languages
 

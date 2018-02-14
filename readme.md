@@ -34,49 +34,83 @@ As François put it:
 These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
 
->   User-submitted link aggregator, small friendly community.
+> *A technology-focused community centered around link aggregation and discussion*.
+> All links are user-submitted, small friendly community, invite-only and ad free.
 
-- [Lobsters](https://lobste.rs/)
+- [Lobsters](https://lobste.rs/), ★★★★★
 
->   User-submitten link aggregator, bigger community.
+> *A social news website focusing on computer science and entrepreneurship*. Run by
+> startup fund Y Combinator. User-submitten link aggregator, bigger community,
+> less personal but also ad-free.
 
-- [Hacker News](https://news.ycombinator.com)
+- [Hacker News](https://news.ycombinator.com), ★★★★☆
 
->   Independent tech news from Britain.
+> *Independent news and views for the tech community*. Based in London, UK.
+> Does some really good dry humor, as you would expect.
 
-- [The Register](http://www.theregister.co.uk)
+- [The Register](http://www.theregister.co.uk), ★★★★☆
 
->   News, guides, reviews, and features.
+> News, guides, reviews, and features.
 
-- [Ars Technica](https://arstechnica.com/)
+- [Ars Technica](https://arstechnica.com/), ★★★★☆
 
->   Generic tech news
+> *A community for sharing thoughtful information and conversation*. 
+> Similar to [lobste.rs](https://lobste.rs/), but focussed on science in general.
 
-- [The Verge](https://www.theverge.com)
-- [Recode](https://www.recode.net)
+- [Hubski](http://hubski.com), ★★★★☆
+
+> Generic tech news
+
+- [The Verge](https://www.theverge.com), ★★★☆☆
+
+> News from silicon valley
+
+- [Recode](https://www.recode.net), ★★★☆☆
 
 ## Blogs
 
 A few technology/culture centric blogs woth checking out.
 
->   Law, technology, and the space between.
+> *Law, technology, and the space between*.
 
 - [`/dev/lawyer`](https://writing.kemitchell.com)
 
->   Regular writings involving Rust, Ruby and how to take things like syscalls
->   apart.
+> Regular writings involving Rust, Ruby and how to take things like syscalls
+> apart.
 
 - [Julia Evans](https://jvns.ca)
 
 ## Puzzles
 
->   Math-related puzzles
+> *A series of challenging mathematical/computer programming problems
+> that will require more than just mathematical insights to solve.
+> Provides a platform for the inquiring mind to delve into unfamiliar
+> areas and learn new concepts in a fun and recreational context*.
+> Great place for beginners and more advanced people alike, whether
+> you are interested in learning or improving your programming skills
+> or in mathematics.
 
-- [Project Euler](https://projecteuler.net/)
+- [Project Euler](https://projecteuler.net/), ★★★★★☆☆☆☆☆
 
->   Cryptography-related puzzles  
+> *This is a different way to learn about crypto than taking a class
+> or reading a book. We give you problems to solve. They're derived
+> from weaknesses in real-world systems and modern cryptographic
+> constructions. We give you enough info to learn about the underlying
+> crypto concepts yourself. When you're finished, you'll not only have
+> learned a good deal about how cryptosystems are built, but you'll also
+> understand how they're attacked*.
+> Great place for some hands-on experience with cryptography, the
+> challenges aren't too difficult but they provide a good understanding
+> of the theory behind some of the crypto we use.
 
 - [matasano](http://cryptopals.com)
+
+> *Some problems related to computer security (specifically poorly
+> implemented security). You are free to use any language
+> and environment you like to complete them. The problems require
+> familiarity with programming, but not necessarily with applied
+> cryptography or computer security in general*.
+
 - [id0-rsa](https://id0-rsa.pub)
 
 >   Commercial puzzle websites

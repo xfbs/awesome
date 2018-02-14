@@ -45,7 +45,6 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [News](#news)
 - [Blogs](#blogs)
 - [Videos](#videos)
-
 </details>
 <details><summary><a href="#resources">Resources</a></summary>
 </details>
@@ -55,13 +54,11 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Crypto](#crypto)
 - [Coding](#coding)
 - [Commercial](#commercial)
-
 </details>
 <details><summary><a href="#design">Design</a></summary>
 
 - [Photography](#photography)
 - [Fonts](#fonts)
-
 </details>
 <details><summary><a href="#programming-languages">Programming Languages</a></summary>
 </details>
@@ -74,19 +71,16 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Code Formatter](#code-formatter)
 - [Code Sanitizers](#code-sanitizers)
 - [Debuggers](#debuggers)
-
 </details>
 <details><summary><a href="#libraries">Libraries</a></summary>
 
 - [C Libraries](#c-libraries)
 - [C++ Libraries](#c-libraries-1)
-
 </details>
 <details><summary><a href="#reading">Reading</a></summary>
 
 - [Books](#books)
 - [Papers](#papers)
-
 </details>
 <details><summary><a href="#further">Further</a></summary>
 </details>

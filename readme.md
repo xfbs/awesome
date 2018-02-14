@@ -34,6 +34,8 @@ As François put it:
 These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
 
+##### Lobsters: [`lobste.rs`](https://lobste.rs/), ★★★★★
+
 > *A technology-focused community centered around link aggregation and discussion*.
 > All links are user-submitted, small friendly community, invite-only and ad free.
 

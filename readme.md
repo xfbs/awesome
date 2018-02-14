@@ -532,8 +532,8 @@ you need it.
 
 #### Alacritty: [`github.com/jwilm/alacritty`](https://github.com/jwilm/alacritty)
 
-> Simple, performant, GPU-accelerated terminal emulator for macOS and Linux.
-> Probably the fastest terminal emulator out there.
+Simple, performant, GPU-accelerated terminal emulator for macOS and Linux.
+Probably the fastest terminal emulator out there.
 
 I wrote this whole document in `vim` running inside `tmux` running in `Alacritty`.
 Need I say more?
@@ -542,14 +542,16 @@ Need I say more?
 
 ## Basics
 
-#### tmux: [`github.com/tmux/tmux`](https://github.com/tmux/tmux)
+#### [tmux](https://github.com/tmux/tmux)
 
-> Terminal multiplexer: run multiple virtual terminals in one physical
-> terminal. Open terminal side-by-side.
+Terminal multiplexer: run multiple virtual terminals in one physical
+terminal. Want two terminals side-by-side? No problem. Want four terminals
+in one? Easy. Want a large terminal to edit a file and a smaller underneath
+to run tests? Done.
 
 #### [Zsh](http://www.zsh.org)
 
->   Powerful shell with scripting language.
+Powerful shell with scripting language.
 
 ##### Plugins
 
@@ -558,7 +560,7 @@ Need I say more?
 - [Zim](https://github.com/zimfw/zimfw): Zsh configuration framework with
   blazing speed and modular extensions.
 
-##### [Bash](https://www.gnu.org/software/bash/)
+#### [Bash](https://www.gnu.org/software/bash/)
 
 The standard shell on most systems. Very simple but decent. This probably comes
 pre-installed on your system anyways but hey — sent it some love.

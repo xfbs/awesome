@@ -795,8 +795,6 @@ done?
 Which libraries do I think are essential to a pain-free C programming
 experience?
 
-* * *
-
 #### Snow: [`github.com/mortie/snow`](https://github.com/mortie/snow)
 
 > Header-only unit testing library for C.
@@ -836,25 +834,17 @@ describe(files, {
 snow_main();
 ```
 
-* * *
-
 #### Jansson: [`github.com/akheron/jansson`](https://github.com/akheron/jansson)
 
 >   Parse and generate JSON formatted data.
-
-* * *
 
 #### Debug: [`github.com/esneider/debug`](https://github.com/esneider/debug)
 
 >   Debug like a sir.
 
-* * *
-
 #### utf8.h: [`github.com/sheredom/utf8.h`](https://github.com/sheredom/utf8.h)
 
 >   UTF-8 string handling made easy.
-
-* * *
 
 #### Onigmo: [`github.com/k-takata/Onigmo`](https://github.com/k-takata/Onigmo)
 

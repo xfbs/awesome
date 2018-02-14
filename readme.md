@@ -547,65 +547,69 @@ Need I say more?
 > Terminal multiplexer: run multiple virtual terminals in one physical
 > terminal. Open terminal side-by-side.
 
-- [Zsh](http://www.zsh.org)
+#### [Zsh](http://www.zsh.org)
 
 >   Powerful shell with scripting language.
 
-- [Oh-My-Zsh](https://ohmyz.sh)
+##### Plugins
 
->   Open source, community-driven framework for managing your ZSH configuration.
+- [Oh-My-Zsh](https://ohmyz.sh): Open source, community-driven framework for
+  managing your ZSH configuration.
+- [Zim](https://github.com/zimfw/zimfw): Zsh configuration framework with
+  blazing speed and modular extensions.
 
-- [Zim](https://github.com/zimfw/zimfw)
+##### [Bash](https://www.gnu.org/software/bash/)
 
->   Zsh configuration framework with blazing speed and modular extensions.
+The standard shell on most systems. Very simple but decent. This probably comes
+pre-installed on your system anyways but hey — sent it some love.
 
-- [Bash](https://www.gnu.org/software/bash/)
+##### Plugins
 
->   The standard shell on most systems. Very simple but decent. 
+- [Sensible Bash](https://github.com/mrzool/bash-sensible): Sane bash defaults.
 
-- [Sensible Bash](https://github.com/mrzool/bash-sensible)
+#### [Vim](http://www.vim.org)
 
->   Sane bash defaults.
+> The ubiquitous editor. 
 
-- [Vim](http://www.vim.org)
+Available on most systems out-of-the-box. Versatile.  Extendable with plugins.
+Famously difficult to quit out of.
 
->   The ubiquitous editor. Available on most systems out-of-the-box. Versatile.
->   Extendable with plugins. Famously difficult to quit out of.
-
-- [NeoVim](https://neovim.io)
-
->   Modern editor based on Vim, with better extendability support.
-
-- [AMP](https://amp.rs)
-
->   No plugins, zero configurations. All the essentials packed in by default.
->   Writtenin Rust, inspired by Vim.
+##### Plugins
 
 - [pathogen.vim](https://github.com/tpope/vim-pathogen)
 
->   Makes it super easy to install plugins and runtime files into their own
->   private directories. Why? Because it means that you can clone Vim plugins
->   into `~/.vim/bundle` and they will be autoloaded.
+  Makes it super easy to install plugins and runtime files into their own
+  private directories. Why? Because it means that you can clone Vim plugins
+  into `~/.vim/bundle` and they will be autoloaded.
 
 - [sensible.vim](https://github.com/tpope/vim-sensible)
 
->   Sensible defaults for Vim.
+  Sensible defaults for Vim.
 
 - [syntastic](https://github.com/vim-syntastic/syntastic)
 
->   Syntax checker for Vim.
+  Syntax checker for Vim.
 
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 
->   File explorar plugin for Vim.
+  File explorar plugin for Vim.
 
 - [vim-colors-solatized](https://github.com/altercation/vim-colors-solarized)
 
->   Solarized colorscheme for Vim.
+  Solarized colorscheme for Vim.
 
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 
->   Lean and mean status / tabline for Vim that's light as air.
+  Lean and mean status / tabline for Vim that's light as air.
+
+#### [NeoVim](https://neovim.io)
+
+> Modern editor based on Vim, with better extendability support.
+
+#### [AMP](https://amp.rs)
+
+> No plugins, zero configurations. All the essentials packed in by default.
+> Written in Rust, inspired by Vim.
 
 #### Git: [`git-scm.com`](https://git-scm.com)
 

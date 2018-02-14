@@ -5,22 +5,26 @@ for maximum fork enjoyment. Feel free to send pull requests in case I missed any
 
 This is kind of supposed to be a replacement for my Safari bookmarks.
 
-## Table of Contents
+## Contents
 
-<!-- traditional ToC
 - [Entertainment](#entertainment)
-    - [Journals](#journals)
-    - [News](#news)
-    - [Blogs](#blogs)
-    - [Videos](#videos)
-- [Resources](#resources)
-- [Challenges](#challenges)
-    - [Math](#math)
-    - [Crypto](#crypto)
-    - [Coding](#coding)
-    - [Commercial](#commercial)
+    - [Journals](#journals) *semi-regular publications*
+    - [News](#news) *news sites worth reading*
+    - [Blogs](#blogs) *blogs worth reading*
+    - [Videos](#videos) *videos worth watching*
+- [Resources](#resources) *learning resources*
+    - [Web](#web) *useful websites*
+    - [Books](#books) *must-read books*
+    - [Papers](#papers) *must-read papers*
+- [Challenges](#challenges) *programming challenges*
+    - [Math](#math) *focussed on (higher) math*
+    - [Crypto](#crypto) *focussed on (applied) crypto*
+    - [Coding](#coding) *generic programming problems*
+    - [Commercial](#commercial) *commercial platforms*
+    - [Resources](#resources-1) *things that might help to solve these*
 - [Design](#design)
     - [Photography](#photography)
+    - [Fonts](#fonts)
 - [Programming Languages](#programming-languages)
 - [Tools](#tools)
     - [Terminal](#terminal)
@@ -33,57 +37,7 @@ This is kind of supposed to be a replacement for my Safari bookmarks.
 - [Libraries](#libraries)
     - [C Libraries](#c-libraries)
     - [C++ Libraries](#c-libraries-1)
-- [Reading](#reading)
-    - [Books](#books)
-    - [Papers](#papers)
 - [Further](#further)
--->
-
-<details><summary><a href="#entertainment">Entertainment</a></summary>
-
-- [Journals](#journals)
-- [News](#news)
-- [Blogs](#blogs)
-- [Videos](#videos)
-</details>
-<details><summary><a href="#resources">Resources</a></summary>
-</details>
-<details><summary><a href="#challenges">Challenges</a></summary>
-
-- [Math](#math)
-- [Crypto](#crypto)
-- [Coding](#coding)
-- [Commercial](#commercial)
-</details>
-<details><summary><a href="#design">Design</a></summary>
-
-- [Photography](#photography)
-- [Fonts](#fonts)
-</details>
-<details><summary><a href="#programming-languages">Programming Languages</a></summary>
-</details>
-<details><summary><a href="#tools">Tools</a></summary>
-
-- [Terminal](#terminal)
-- [Editors](#editors)
-- [Version Control](#version-control)
-- [Static Analysis](#static-analysis)
-- [Code Formatter](#code-formatter)
-- [Code Sanitizers](#code-sanitizers)
-- [Debuggers](#debuggers)
-</details>
-<details><summary><a href="#libraries">Libraries</a></summary>
-
-- [C Libraries](#c-libraries)
-- [C++ Libraries](#c-libraries-1)
-</details>
-<details><summary><a href="#reading">Reading</a></summary>
-
-- [Books](#books)
-- [Papers](#papers)
-</details>
-<details><summary><a href="#further">Further</a></summary>
-</details>
 
 ## Entertainment
 
@@ -102,11 +56,6 @@ how to hack, with a focus on retro hardware and mind-boggling file format
 hackery.
 
 ### News
-
-As François put it:
-
-> “Tell me what you read and I'll tell you who you are" is true enough, but
-> I'd know you better if you told me what you reread.”
 
 These are news sites worth reading and hopefully re-reading, about technology
 and related topics.
@@ -209,6 +158,10 @@ of hackers. Has a lot of high-quality content.
 
 You want to learn something? You've come to the right place.
 
+### Web
+
+Resources from around the web.
+
 #### Math ∩ Programming: [`jeremykun.com`](https://jeremykun.com)
 
 Has two sections, which are of equally high quality: the 
@@ -251,6 +204,10 @@ prefer not to wade through dry textbooks? Then this page is for you.
 > to go through all of the major dramatis personae of cryptography to make TLS
 > work in 45 minutes. This book is the natural extension of that, with an
 > extensive focus on breaking cryptography.
+
+### Books
+
+### Papers
 
 ## Challenges
 

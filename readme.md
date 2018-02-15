@@ -944,6 +944,10 @@ Rust borrow checker. It's a beautiful language, with a very intimidating
 promise and the potential to rival C. It does have a sweet syntax, taking
 in many inspirations from other languages.
 
+### Useful
+
+#### [Rust Iterator Cheatsheet](https://danielkeep.github.io/itercheat_baked.html)
+
 ### Tools
 
 #### [rustfmt](https://github.com/rust-lang-nursery/rustfmt)

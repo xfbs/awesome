@@ -30,6 +30,7 @@ than to have them rot in my previous convoluted folder hierachies.
     - [Math](#math)
     - [Crypto](#crypto)
     - [Coding](#coding)
+    - [Reverse](#reverse)
     - [Commercial](#commercial)
     - [Resources](#resources-1)
 - [Design](#design) *resources that might help you*.
@@ -319,7 +320,7 @@ programming community to host their own contests. Major institutions and
 organizations across the globe use our platform to host their contests. On an
 average, 30+ external contests are hosted on our platform every month.
 
-## Wargames
+## Reverse
 
 These can help you learn security concepts by providing safe and *legal*
 environments where you can break security. It's like a sandbox for hackers.
@@ -336,6 +337,16 @@ how to access it (SSH access).
 
 Aggregates resources and links to challenges. Probably more extensive than
 my list, and also includes some rather obscure ones. Worth checking out.
+
+### [Into to Reverse Engineering](https://leotindall.com/tutorial/an-intro-to-x86_64-reverse-engineering/)
+
+Has some simple C scripts that need to be cracked with standard Linux
+utilities.
+
+### [exploit.courses](https://exploit.courses/#/challenges)
+
+A small (~30-problem) set of challenges for that has an interactive online
+learning area.
 
 ## Commercial
 
